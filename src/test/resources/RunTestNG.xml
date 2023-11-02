@@ -2,14 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="TestNGListener">
     <listeners>
-        <listener class-name="com.vmo.myec.helper.TestNGListener"/>
+        <listener class-name="com.vmo.automationexercise.helper.TestNGListener"/>
     </listeners>
     <test name="MyEC">
         <!--<parameter name="browser" value="CHROME"></parameter>
         <parameter name="runType" value="grid"></parameter>-->
         <classes>
-             <class name="com.vmo.myec.login.LoginTest"></class>
-             <class name="com.vmo.myec.book.BookTest"></class>
+             <class name="com.vmo.automationexercise.login.LoginTest"></class>
+             <class name="com.vmo.automationexercise.book.BookTest"></class>
          </classes>
      </test>
 
