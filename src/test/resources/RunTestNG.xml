@@ -8,8 +8,7 @@
         <!--<parameter name="browser" value="CHROME"></parameter>
         <parameter name="runType" value="grid"></parameter>-->
         <classes>
-             <class name="com.vmo.automationexercise.login.LoginTest"></class>
-             <class name="com.vmo.automationexercise.book.BookTest"></class>
+             <class name="com.vmo.automationexercise.Register.AccountTest"></class>
          </classes>
      </test>
 

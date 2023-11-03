@@ -1,9 +1,12 @@
 package com.vmo.automationexercise.common;
 
+import com.vmo.automationexercise.factoryEnviroment.GridFactory;
+import com.vmo.automationexercise.factoryEnviroment.LocalFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 import java.io.IOException;
+import java.time.Duration;
 
 public class BaseTest {
     private WebDriver driver;
@@ -71,7 +74,7 @@ public class BaseTest {
 
     }
 
-    /*protected WebDriver getDriverBrowser(String browser, String runType) {
+    protected WebDriver getDriverBrowser(String browser, String runType) {
         if(runType=="grid"){
             driver = new GridFactory().createDriver(browser);
         }else{
@@ -80,7 +83,7 @@ public class BaseTest {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(GlobalConstants.LONG_TIMEOUT));
         return driver;
-    }*/
+    }
 
     protected void verifyEquals(String actual, String expect) {
         Assert.assertEquals(actual, expect);
