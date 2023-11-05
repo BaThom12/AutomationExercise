@@ -5,11 +5,15 @@
         <listener class-name="com.vmo.automationexercise.helper.TestNGListener"/>
     </listeners>
     <test name="MyEC">
-        <!--<parameter name="browser" value="CHROME"></parameter>
-        <parameter name="runType" value="grid"></parameter>-->
+        <parameter name="browser" value="CHROME"></parameter>
+        <parameter name="runType" value="grid1"></parameter>
         <classes>
-             <class name="com.vmo.automationexercise.Register.AccountTest"></class>
-         </classes>
-     </test>
+            <!--<class name="com.vmo.automationexercise.Account.RegisterTest"></class>
+            <class name="com.vmo.automationexercise.Account.AuthenTest"></class>
+            <class name="com.vmo.automationexercise.ContactUs.ContactUsTest"></class>
+            <class name="com.vmo.automationexercise.HomePage.HompageTest"></class>-->
+            <class name="com.vmo.automationexercise.Product.ProductTest"></class>
+        </classes>
+    </test>
 
- </suite><!-- Test -->
+</suite><!-- Test -->

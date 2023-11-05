@@ -649,5 +649,9 @@ public class BasePage {
       return explicit.until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator))).isDisplayed();
 
     }
+    protected void uploadFile(WebDriver driver,String locator,String pathFile){
+        driver.findElement(By.xpath(locator)).sendKeys(System.getProperty("user.dir") + pathFile);
+        //explicit.until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator))).isDisplayed();
+    }
 
 }

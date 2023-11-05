@@ -1,0 +1,53 @@
+[04-11-2023 16:12:21.645 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[04-11-2023 16:12:25.552 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[04-11-2023 16:12:25.584 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[04-11-2023 16:12:25.702 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[04-11-2023 16:12:27.167 INFO com.vmo.automationexercise.helper.Log] - Click Signup button
+[04-11-2023 16:12:27.345 INFO com.vmo.automationexercise.helper.Log] - Verify 'New User Signup!' is visible
+[04-11-2023 16:12:28.140 INFO com.vmo.automationexercise.helper.Log] - Enter name: Emmie Wyman Jr.
+[04-11-2023 16:12:28.355 INFO com.vmo.automationexercise.helper.Log] - Enter email: hugh.willms@yahoo.com
+[04-11-2023 16:12:29.794 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[04-11-2023 16:12:29.895 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[04-11-2023 16:12:30.067 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[04-11-2023 16:12:30.330 INFO com.vmo.automationexercise.helper.Log] - Enter password: w6b8xutp00o57o
+[04-11-2023 16:12:30.566 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[04-11-2023 16:12:30.711 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[04-11-2023 16:12:30.852 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[04-11-2023 16:12:31.000 INFO com.vmo.automationexercise.helper.Log] - Tick on Sign up for our newsletter! checkbox
+[04-11-2023 16:12:31.156 INFO com.vmo.automationexercise.helper.Log] - Tick on Receive special offers from our partners! checkbox
+[04-11-2023 16:12:31.499 INFO com.vmo.automationexercise.helper.Log] - Enter first name: Brent
+[04-11-2023 16:12:31.743 INFO com.vmo.automationexercise.helper.Log] - Enter last name: Rowe
+[04-11-2023 16:12:32.052 INFO com.vmo.automationexercise.helper.Log] - Enter company: Ondricka, Goodwin and Buckridge
+[04-11-2023 16:12:32.334 INFO com.vmo.automationexercise.helper.Log] - Enter address1: 154 Koch Roads, Lake Demetriusburgh, AR 28268
+[04-11-2023 16:12:32.585 INFO com.vmo.automationexercise.helper.Log] - Enter address2: 93600
+[04-11-2023 16:12:32.756 INFO com.vmo.automationexercise.helper.Log] - Choose country: Canada
+[04-11-2023 16:12:32.972 INFO com.vmo.automationexercise.helper.Log] - Enter state: Oregon
+[04-11-2023 16:12:33.230 INFO com.vmo.automationexercise.helper.Log] - Enter city: Lake Ernestoton
+[04-11-2023 16:12:33.472 INFO com.vmo.automationexercise.helper.Log] - Enter zipcode: 24208
+[04-11-2023 16:12:33.641 INFO com.vmo.automationexercise.helper.Log] - Enter phone number: 205-978-5861
+[04-11-2023 16:12:37.163 INFO com.vmo.automationexercise.helper.Log] - Click on Create account button
+[04-11-2023 16:12:37.325 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT CREATED!' is visible
+[04-11-2023 16:12:37.501 INFO com.vmo.automationexercise.helper.Log] - Click Continue button to login
+[04-11-2023 16:12:53.298 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[04-11-2023 16:12:54.447 INFO com.vmo.automationexercise.helper.Log] - Click 'Delete Account' button
+[04-11-2023 16:12:54.587 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT DELETED!' is visible 
+[04-11-2023 16:12:56.870 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[04-11-2023 16:12:57.827 INFO com.vmo.automationexercise.helper.Log] - Click Signup button
+[04-11-2023 16:12:57.989 INFO com.vmo.automationexercise.helper.Log] - Verify 'New User Signup!' is visible
+[04-11-2023 16:12:58.267 INFO com.vmo.automationexercise.helper.Log] - Enter name: Annita Spencer III
+[04-11-2023 16:12:58.489 INFO com.vmo.automationexercise.helper.Log] - Enter email: catherine.kozey@gmail.com
+[04-11-2023 16:12:59.463 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[04-11-2023 16:12:59.621 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[04-11-2023 16:12:59.912 INFO com.vmo.automationexercise.helper.Log] - Enter name: Shena Armstrong Jr.
+[04-11-2023 16:14:01.669 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[04-11-2023 16:14:05.004 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[04-11-2023 16:14:05.007 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[04-11-2023 16:14:05.036 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[04-11-2023 16:14:05.863 INFO com.vmo.automationexercise.helper.Log] -  Click on 'Signup / Login' button
+[04-11-2023 16:14:05.958 INFO com.vmo.automationexercise.helper.Log] -  Verify 'Login to your account' is visible
+[04-11-2023 16:14:06.245 INFO com.vmo.automationexercise.helper.Log] - Enter email: tia.mclaughlin@gmail.com
+[04-11-2023 16:14:06.461 INFO com.vmo.automationexercise.helper.Log] - Enter password: uaq3hhz2sdke6
+[04-11-2023 16:14:08.740 INFO com.vmo.automationexercise.helper.Log] - Click 'login' button
+[04-11-2023 16:14:08.809 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[04-11-2023 16:14:10.010 INFO com.vmo.automationexercise.helper.Log] - Click 'Logout' button
+[04-11-2023 16:14:10.027 INFO com.vmo.automationexercise.helper.Log] - Verify that user is navigated to login page

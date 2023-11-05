@@ -1,0 +1,41 @@
+[04-11-2023 15:29:38.521 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[04-11-2023 15:29:43.780 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[04-11-2023 15:29:43.837 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[04-11-2023 15:29:44.140 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[04-11-2023 15:29:45.816 INFO com.vmo.automationexercise.helper.Log] - Click Signup button
+[04-11-2023 15:29:46.005 INFO com.vmo.automationexercise.helper.Log] - Verify 'New User Signup!' is visible
+[04-11-2023 15:29:46.812 INFO com.vmo.automationexercise.helper.Log] - Enter name: Lawerence Stehr
+[04-11-2023 15:29:47.016 INFO com.vmo.automationexercise.helper.Log] - Enter email: lois.sanford@hotmail.com
+[04-11-2023 15:29:49.293 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[04-11-2023 15:29:49.492 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[04-11-2023 15:29:49.634 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[04-11-2023 15:29:49.908 INFO com.vmo.automationexercise.helper.Log] - Enter password: hwjxztdyd62
+[04-11-2023 15:29:50.120 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[04-11-2023 15:29:50.276 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[04-11-2023 15:29:50.432 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[04-11-2023 15:30:51.979 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[04-11-2023 15:30:53.428 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[04-11-2023 15:30:56.867 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[04-11-2023 15:30:56.869 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[04-11-2023 15:30:56.892 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[04-11-2023 15:30:57.937 INFO com.vmo.automationexercise.helper.Log] -  Click on 'Signup / Login' button
+[04-11-2023 15:30:58.025 INFO com.vmo.automationexercise.helper.Log] -  Verify 'Login to your account' is visible
+[04-11-2023 15:30:58.329 INFO com.vmo.automationexercise.helper.Log] - Enter email: tia.mclaughlin@gmail.com
+[04-11-2023 15:30:58.518 INFO com.vmo.automationexercise.helper.Log] - Enter password: uaq3hhz2sdke6
+[04-11-2023 15:31:02.619 INFO com.vmo.automationexercise.helper.Log] - Click 'login' button
+[04-11-2023 15:31:02.774 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible

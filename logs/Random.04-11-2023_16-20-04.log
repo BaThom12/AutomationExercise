@@ -1,0 +1,38 @@
+[04-11-2023 16:20:08.204 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[04-11-2023 16:20:11.502 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[04-11-2023 16:20:11.537 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[04-11-2023 16:20:11.669 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[04-11-2023 16:20:12.593 INFO com.vmo.automationexercise.helper.Log] - Click Signup button
+[04-11-2023 16:20:12.716 INFO com.vmo.automationexercise.helper.Log] - Verify 'New User Signup!' is visible
+[04-11-2023 16:20:13.389 INFO com.vmo.automationexercise.helper.Log] - Enter name: Vernell Williamson Sr.
+[04-11-2023 16:20:13.569 INFO com.vmo.automationexercise.helper.Log] - Enter email: tia.mclaughlin@gmail.com
+[04-11-2023 16:20:14.461 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[04-11-2023 16:20:14.624 INFO com.vmo.automationexercise.helper.Log] - Verify error 'Email Address already exist!' is visible
+[04-11-2023 16:20:14.941 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[04-11-2023 16:20:16.614 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[04-11-2023 16:20:19.911 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[04-11-2023 16:20:19.911 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[04-11-2023 16:20:19.968 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[04-11-2023 16:20:20.806 INFO com.vmo.automationexercise.helper.Log] -  Click on 'Signup / Login' button
+[04-11-2023 16:20:21.086 INFO com.vmo.automationexercise.helper.Log] -  Verify 'Login to your account' is visible
+[04-11-2023 16:20:21.340 INFO com.vmo.automationexercise.helper.Log] - Enter email: tia.mclaughlin@gmail.com
+[04-11-2023 16:20:21.496 INFO com.vmo.automationexercise.helper.Log] - Enter password: uaq3hhz2sdke6
+[04-11-2023 16:20:24.088 INFO com.vmo.automationexercise.helper.Log] - Click 'login' button
+[04-11-2023 16:20:24.202 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[04-11-2023 16:20:25.407 INFO com.vmo.automationexercise.helper.Log] - Click 'Logout' button
+[04-11-2023 16:20:25.423 INFO com.vmo.automationexercise.helper.Log] - Verify that user is navigated to login page

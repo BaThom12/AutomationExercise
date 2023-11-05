@@ -1,0 +1,32 @@
+[05-11-2023 15:04:24.089 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[05-11-2023 15:04:27.545 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[05-11-2023 15:04:27.592 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[05-11-2023 15:04:27.768 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[05-11-2023 15:04:28.911 INFO com.vmo.automationexercise.helper.Log] - Click on 'Contact Us' button
+[05-11-2023 15:04:29.061 INFO com.vmo.automationexercise.helper.Log] - Verify 'GET IN TOUCH' is visible
+[05-11-2023 15:04:29.323 INFO com.vmo.automationexercise.helper.Log] - Enter name: Denna Reinger
+[05-11-2023 15:04:29.560 INFO com.vmo.automationexercise.helper.Log] - Enter email: cyrus.schuster@yahoo.com
+[05-11-2023 15:04:29.750 INFO com.vmo.automationexercise.helper.Log] - Enter subject: Product
+[05-11-2023 15:04:29.976 INFO com.vmo.automationexercise.helper.Log] - Enter message: Contact us
+[05-11-2023 15:04:30.046 INFO com.vmo.automationexercise.helper.Log] - Upload file
+[05-11-2023 15:04:30.191 INFO com.vmo.automationexercise.helper.Log] - Click 'Submit' button
+[05-11-2023 15:04:30.220 INFO com.vmo.automationexercise.helper.Log] - Click on OK button
+[05-11-2023 15:04:30.299 INFO com.vmo.automationexercise.helper.Log] - Verify success message 'Success! Your details have been submitted successfully.' is visible
+[05-11-2023 15:04:32.262 INFO com.vmo.automationexercise.helper.Log] - Click 'Home' button
+[05-11-2023 15:04:32.407 INFO com.vmo.automationexercise.helper.Log] - Verify that landed to home page successfully
+[05-11-2023 15:04:32.538 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]

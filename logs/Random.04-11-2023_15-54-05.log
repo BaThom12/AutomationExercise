@@ -1,0 +1,46 @@
+[04-11-2023 15:54:09.753 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[04-11-2023 15:54:13.400 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[04-11-2023 15:54:13.436 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[04-11-2023 15:54:13.566 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[04-11-2023 15:54:14.362 INFO com.vmo.automationexercise.helper.Log] -  Click on 'Signup / Login' button
+[04-11-2023 15:54:14.601 INFO com.vmo.automationexercise.helper.Log] -  Verify 'Login to your account' is visible
+[04-11-2023 15:54:14.831 INFO com.vmo.automationexercise.helper.Log] - Enter email: tia.mclaughlin@gmail.com
+[04-11-2023 15:54:15.026 INFO com.vmo.automationexercise.helper.Log] - Enter password: uaq3hhz2sdke6
+[04-11-2023 15:54:19.256 INFO com.vmo.automationexercise.helper.Log] - Click 'login' button
+[04-11-2023 15:54:19.438 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[04-11-2023 15:54:19.545 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[04-11-2023 15:54:21.216 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[04-11-2023 15:54:24.588 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[04-11-2023 15:54:24.596 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[04-11-2023 15:54:24.629 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[04-11-2023 15:54:26.789 INFO com.vmo.automationexercise.helper.Log] -  Click on 'Signup / Login' button
+[04-11-2023 15:54:26.934 INFO com.vmo.automationexercise.helper.Log] -  Verify 'Login to your account' is visible
+[04-11-2023 15:54:27.225 INFO com.vmo.automationexercise.helper.Log] - Enter email: tia.mclaughlin@gmail.com.vn
+[04-11-2023 15:54:27.420 INFO com.vmo.automationexercise.helper.Log] - Enter password: uaq3hhz2sdke6
+[04-11-2023 15:54:29.233 INFO com.vmo.automationexercise.helper.Log] - Click 'login' button
+[04-11-2023 15:54:29.329 INFO com.vmo.automationexercise.helper.Log] - Verify error 'Your email or password is incorrect!' is visible
+[04-11-2023 15:54:30.960 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[04-11-2023 15:54:36.979 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[04-11-2023 15:54:36.980 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[04-11-2023 15:54:37.003 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[04-11-2023 15:54:37.756 INFO com.vmo.automationexercise.helper.Log] -  Click on 'Signup / Login' button
+[04-11-2023 15:54:37.855 INFO com.vmo.automationexercise.helper.Log] -  Verify 'Login to your account' is visible
+[04-11-2023 15:54:38.075 INFO com.vmo.automationexercise.helper.Log] - Enter email: tia.mclaughlin@gmail.com
+[04-11-2023 15:54:38.170 INFO com.vmo.automationexercise.helper.Log] - Enter password: uaq3hhz2sdke6
+[04-11-2023 15:54:40.242 INFO com.vmo.automationexercise.helper.Log] - Click 'login' button
+[04-11-2023 15:54:40.281 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible

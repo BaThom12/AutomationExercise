@@ -1,6 +1,5 @@
-package com.vmo.automationexercise.Register;
+package com.vmo.automationexercise.Account;
 
-import com.vmo.automationexercise.common.BasePage;
 import com.vmo.automationexercise.common.BaseTest;
 import com.vmo.automationexercise.helper.Log;
 import com.vmo.automationexercise.helper.TestNGListener;
@@ -16,13 +15,13 @@ import org.testng.annotations.*;
 @Feature("Account")
 @Story("Register and delete account")
 @Listeners(TestNGListener.class)
-public class AccountTest extends BaseTest {
+public class RegisterTest extends BaseTest {
     WebDriver driver;
     HomePageObject homepage;
     AccountPageObject account;
 
     @Parameters({"browser","runType"})
-    @BeforeMethod
+    @BeforeClass
     public void setup(String browser, String type) {
         driver = getDriverBrowser(browser,type);
         driver.manage().window().maximize();
@@ -34,28 +33,27 @@ public class AccountTest extends BaseTest {
 
     }
 
-    /* @Test(dataProvider = "getInforLogin", dataProviderClass = ExcelConfig.class)
-     public void Login_TC01_GetDataFromExcel(String STT, String username, String password, String expect) throws StackOverflowError {
-         home.verifyOnHomePage(driver);
-         login.verifyOnLoginPage(driver);
-         login.enterUserPass(username,password);
-         login.verifyResultLogin(expect);
-     }
 
-     @AfterClass
-     public void tearDown() {
-         driver.quit();
-     }*/
-    @Test(priority = 1)
+   /* @Test(priority = 1)
     public void TC01_RegisterUser() {
         homepage.verifyOnHomePage(driver);
-        account.verifyOnSignUpPage();
-        account.verifyEnterAccountInformationSuccessful();
+        homepage.verifyOnSignUpPage();
+        account.verifyEnterNameAndEmail();
         account.verifyCreateAccountSuccessful();
         account.verifyLoginSuccessful();
     }
     @Test(priority = 2)
     public void TC02_DeleteUser() {
         account.verifyDeleteAccountSuccessful();
+    }*/
+    @Test(priority = 3)
+    public void TC06_RegisterUserWithExistingEmail() {
+        homepage.verifyOnHomePage(driver);
+        homepage.verifyOnSignUpPage();
+        account.verifyCreateAccountFail();
+    }
+    @AfterClass
+    public void tearDown() {
+        driver.quit();
     }
 }

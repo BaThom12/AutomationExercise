@@ -1,7 +1,9 @@
 package com.vmo.automationexercise.factoryEnviroment;
 
-import com.vmo.nopcommerce.factoryBrowser.*;
-import com.vmo.nopcommerce.factoryBrowser.GridDriverManager.*;
+import com.vmo.automationexercise.factoryBrowser.BrowserNotSupportedException;
+import com.vmo.automationexercise.factoryBrowser.GridDriverManager.*;
+import com.vmo.automationexercise.factoryBrowser.*;
+import com.vmo.automationexercise.factoryBrowser.GridDriverManager.*;
 import org.openqa.selenium.WebDriver;
 
 public class GridFactory {

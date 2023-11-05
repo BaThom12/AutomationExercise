@@ -5,4 +5,5 @@ public class GlobalConstants {
     public static final long LONG_TIMEOUT = 60;
 
 
+    public static final String HUB_URL = "";
 }

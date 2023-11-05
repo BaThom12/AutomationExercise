@@ -1,7 +1,7 @@
 package com.vmo.automationexercise.factoryBrowser.GridDriverManager;
 
-import com.vmo.nopcommerce.common.GlobalConstants;
-import com.vmo.nopcommerce.factoryBrowser.BrowserFactory;
+import com.vmo.automationexercise.common.GlobalConstants;
+import com.vmo.automationexercise.factoryBrowser.BrowserFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;

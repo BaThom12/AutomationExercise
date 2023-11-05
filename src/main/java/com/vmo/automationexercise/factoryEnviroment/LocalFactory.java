@@ -1,6 +1,6 @@
 package com.vmo.automationexercise.factoryEnviroment;
 
-import com.vmo.nopcommerce.factoryBrowser.*;
+import com.vmo.automationexercise.factoryBrowser.*;
 import org.openqa.selenium.WebDriver;
 
 public class LocalFactory {
@@ -10,7 +10,7 @@ public class LocalFactory {
         browser = browser.toUpperCase();
         switch (browser) {
             case "CHROME":
-                driver = new ChromeHeadlessDriverManager().getBrowserDriver();
+                driver = new ChromeDriverManager().getBrowserDriver();
                 break;
             case "FIREFOX":
                 driver = new FireFoxHeadlessDriverManager().getBrowserDriver();

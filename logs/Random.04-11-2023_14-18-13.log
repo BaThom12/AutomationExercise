@@ -1,0 +1,49 @@
+[04-11-2023 14:18:17.516 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[04-11-2023 14:18:23.212 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[04-11-2023 14:18:23.271 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[04-11-2023 14:18:23.579 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[04-11-2023 14:18:24.532 INFO com.vmo.automationexercise.helper.Log] - Click Signup button
+[04-11-2023 14:18:24.639 INFO com.vmo.automationexercise.helper.Log] - Verify 'New User Signup!' is visible
+[04-11-2023 14:18:25.429 INFO com.vmo.automationexercise.helper.Log] - Enter name: Lenard Jast
+[04-11-2023 14:18:25.650 INFO com.vmo.automationexercise.helper.Log] - Enter email: colton.aufderhar@hotmail.com
+[04-11-2023 14:18:27.538 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[04-11-2023 14:18:27.644 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[04-11-2023 14:18:27.857 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[04-11-2023 14:18:28.137 INFO com.vmo.automationexercise.helper.Log] - Enter password: 5rge7nba
+[04-11-2023 14:18:28.347 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[04-11-2023 14:18:28.495 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[04-11-2023 14:18:28.652 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[04-11-2023 14:18:28.756 INFO com.vmo.automationexercise.helper.Log] - Tick on Sign up for our newsletter! checkbox
+[04-11-2023 14:18:28.879 INFO com.vmo.automationexercise.helper.Log] - Tick on Receive special offers from our partners! checkbox
+[04-11-2023 14:18:29.191 INFO com.vmo.automationexercise.helper.Log] - Enter first name: Samual
+[04-11-2023 14:18:29.456 INFO com.vmo.automationexercise.helper.Log] - Enter last name: Kautzer
+[04-11-2023 14:18:29.694 INFO com.vmo.automationexercise.helper.Log] - Enter company: com.github.javafaker.Company@25d6ae3
+[04-11-2023 14:18:29.993 INFO com.vmo.automationexercise.helper.Log] - Enter address1: com.github.javafaker.Address@7f088b5c
+[04-11-2023 14:18:30.260 INFO com.vmo.automationexercise.helper.Log] - Enter address2: com.github.javafaker.Address@7f088b5c
+[04-11-2023 14:18:30.419 INFO com.vmo.automationexercise.helper.Log] - Choose country: Canada
+[04-11-2023 14:18:30.697 INFO com.vmo.automationexercise.helper.Log] - Enter state: Wisconsin
+[04-11-2023 14:18:30.986 INFO com.vmo.automationexercise.helper.Log] - Enter city: Claudiahaven
+[04-11-2023 14:18:31.227 INFO com.vmo.automationexercise.helper.Log] - Enter zipcode: 26444-1856
+[04-11-2023 14:18:31.507 INFO com.vmo.automationexercise.helper.Log] - Enter phone number: com.github.javafaker.PhoneNumber@32d11a5c
+[04-11-2023 14:18:34.851 INFO com.vmo.automationexercise.helper.Log] - Click on Create account button
+[04-11-2023 14:18:35.023 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT CREATED!' is visible
+[04-11-2023 14:18:37.652 INFO com.vmo.automationexercise.helper.Log] - Click Continue button to login
+[04-11-2023 14:18:37.822 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[04-11-2023 14:18:39.087 INFO com.vmo.automationexercise.helper.Log] - Click 'Delete Account' button
+[04-11-2023 14:18:39.176 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT DELETED!' is visible 
+[04-11-2023 14:18:42.401 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
