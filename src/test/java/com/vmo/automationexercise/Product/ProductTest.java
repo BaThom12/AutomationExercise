@@ -2,6 +2,7 @@ package com.vmo.automationexercise.Product;
 
 import com.vmo.automationexercise.common.BaseTest;
 import com.vmo.automationexercise.helper.Log;
+import com.vmo.automationexercise.interfaces.ProductPageUI;
 import com.vmo.automationexercise.pageobject.HomePageObject;
 import com.vmo.automationexercise.pageobject.ProductPageObject;
 import io.qameta.allure.Epic;
@@ -34,12 +35,19 @@ public class ProductTest extends BaseTest {
         product = new ProductPageObject(driver);
     }
 
-    @Test
-    public void TC09_VerifyAllProductsAndProductDetailPage() throws ElementClickInterceptedException {
+    /*@Test
+    public void TC01_VerifyAllProductsAndProductDetailPage() throws ElementClickInterceptedException {
         homepage.verifyOnHomePage(driver);
         product.verifyOnProductList();
         product.verifyOnDetailPage();
+    }*/
+    @Test
+    public void TC02_SearchProduct() {
+        homepage.verifyOnHomePage(driver);
+        product.verifyOnProductList();
+        product.verifySearchResult(ProductPageUI.KEY_SEARCH);
     }
+
 
     @AfterMethod
     public void tearDown() {

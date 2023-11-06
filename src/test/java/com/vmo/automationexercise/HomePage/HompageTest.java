@@ -29,10 +29,15 @@ public class HompageTest extends BaseTest {
         Log.info("Open Automation exercise shop");
 
     }
-    @Test
-    public void TC08_VerifyTestCasesPage() {
+   /* @Test
+    public void TC01_VerifyTestCasesPage() {
         homepage.verifyOnHomePage(driver);
         homepage.verifyNavigatedToTestCasesPageSuccessfully();
+    }*/
+    @Test
+    public void TC02_VerifySubscriptionInHomePage(){
+        homepage.verifyOnHomePage(driver);
+        homepage.verifySubscriptionSuccessful();
     }
     @AfterMethod
     public void tearDown() {

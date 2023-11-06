@@ -11,8 +11,9 @@
             <!--<class name="com.vmo.automationexercise.Account.RegisterTest"></class>
             <class name="com.vmo.automationexercise.Account.AuthenTest"></class>
             <class name="com.vmo.automationexercise.ContactUs.ContactUsTest"></class>
-            <class name="com.vmo.automationexercise.HomePage.HompageTest"></class>-->
-            <class name="com.vmo.automationexercise.Product.ProductTest"></class>
+            <class name="com.vmo.automationexercise.HomePage.HompageTest"></class>
+            <class name="com.vmo.automationexercise.Product.ProductTest"></class>-->
+            <class name="com.vmo.automationexercise.HomePage.HompageTest"></class>
         </classes>
     </test>
 

@@ -1,0 +1,10 @@
+[06-11-2023 21:43:10.993 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[06-11-2023 21:43:17.425 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[06-11-2023 21:43:17.485 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[06-11-2023 21:43:17.819 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[06-11-2023 21:43:22.753 INFO com.vmo.automationexercise.helper.Log] - Click on 'Products' button
+[06-11-2023 21:43:22.769 INFO com.vmo.automationexercise.helper.Log] - Verify user is navigated to ALL PRODUCTS page successfully
+[06-11-2023 21:43:22.948 INFO com.vmo.automationexercise.helper.Log] - The products list is visible
+[06-11-2023 21:43:23.251 INFO com.vmo.automationexercise.helper.Log] - Enter product name in search input: aa
+[06-11-2023 21:43:24.795 INFO com.vmo.automationexercise.helper.Log] - Click search button
+[06-11-2023 21:43:24.960 INFO com.vmo.automationexercise.helper.Log] - Verify 'SEARCHED PRODUCTS' is visible

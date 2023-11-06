@@ -1,5 +1,6 @@
 package com.vmo.automationexercise.pageobject;
 
+import com.github.javafaker.Faker;
 import com.vmo.automationexercise.common.BasePage;
 import com.vmo.automationexercise.helper.Log;
 import com.vmo.automationexercise.interfaces.AccountPageUI;
@@ -12,6 +13,7 @@ import static com.vmo.automationexercise.pageobject.CommonPageObject.replaceText
 
 public class HomePageObject extends BasePage {
     WebDriver driver;
+    Faker faker  = new Faker();
 
     public HomePageObject(WebDriver driver) {
         this.driver = driver;
@@ -46,4 +48,13 @@ public class HomePageObject extends BasePage {
     }
 
 
+    public void verifySubscriptionSuccessful() {
+        String email = faker.internet().emailAddress();
+        scrollToBottomPage(driver);
+        sendKeyToElement(driver,HomePageUI.SUBSCRIPTION_TEXTBOX,email);
+        Log.allure("Enter email address in input: %s",email);
+        clickToElement(driver,HomePageUI.ARROW_BUTTON);
+        Log.allure("Click arrow button");
+        Assert.assertEquals(getTextElement(driver,HomePageUI.SUBSCRIPTION_MESSAGE_SUCCESS),"You have been successfully subscribed!");
+    }
 }
