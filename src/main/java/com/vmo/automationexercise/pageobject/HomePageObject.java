@@ -48,7 +48,7 @@ public class HomePageObject extends BasePage {
     }
 
 
-    public void verifySubscriptionSuccessful() {
+    public void verifySubscriptionInHomePageSuccessful() {
         String email = faker.internet().emailAddress();
         scrollToBottomPage(driver);
         sendKeyToElement(driver,HomePageUI.SUBSCRIPTION_TEXTBOX,email);
@@ -56,5 +56,19 @@ public class HomePageObject extends BasePage {
         clickToElement(driver,HomePageUI.ARROW_BUTTON);
         Log.allure("Click arrow button");
         Assert.assertEquals(getTextElement(driver,HomePageUI.SUBSCRIPTION_MESSAGE_SUCCESS),"You have been successfully subscribed!");
+        Log.allure("Verify success message 'You have been successfully subscribed!' is visible");
+    }
+
+    public void verifySubscriptionInCartPageSuccessful() {
+        String email = faker.internet().emailAddress();
+        clickToElement(driver,replaceText(HomePageUI.COMMON_BUTTON,"text","/view_cart"));
+        Log.allure("Click 'Cart' button");
+        scrollToBottomPage(driver);
+        sendKeyToElement(driver,HomePageUI.SUBSCRIPTION_TEXTBOX,email);
+        Log.allure("Enter email address in input: %s",email);
+        clickToElement(driver,HomePageUI.ARROW_BUTTON);
+        Log.allure("Click arrow button");
+        Assert.assertEquals(getTextElement(driver,HomePageUI.SUBSCRIPTION_MESSAGE_SUCCESS),"You have been successfully subscribed!");
+        Log.allure("Verify success message 'You have been successfully subscribed!' is visible");
     }
 }
