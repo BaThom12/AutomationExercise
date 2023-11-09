@@ -13,7 +13,8 @@
             <class name="com.vmo.automationexercise.ContactUs.ContactUsTest"></class>
             <class name="com.vmo.automationexercise.HomePage.HompageTest"></class>
             <class name="com.vmo.automationexercise.Product.ProductTest"></class>-->
-            <class name="com.vmo.automationexercise.HomePage.HompageTest"></class>
+            <class name="com.vmo.automationexercise.Cart.CartTest"></class>
+
         </classes>
     </test>
 

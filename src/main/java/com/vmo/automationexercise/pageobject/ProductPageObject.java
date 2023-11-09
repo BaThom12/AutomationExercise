@@ -31,8 +31,8 @@ public class ProductPageObject extends BasePage {
     }
 
     public void verifyOnDetailPage() {
-        String price = getTextElement(driver,replaceText(ProductPageUI.INFORMATION_PRODUCT,"text","h2"));
-        String name = getTextElement(driver,replaceText(ProductPageUI.INFORMATION_PRODUCT,"text","p"));
+        String price = getTextElement(driver,replaceText(ProductPageUI.INFORMATION_FIRST_PRODUCT,"text","h2"));
+        String name = getTextElement(driver,replaceText(ProductPageUI.INFORMATION_FIRST_PRODUCT,"text","p"));
         clickToElement(driver, replaceText(ProductPageUI.VIEW_DETAIL_BUTTON, "index", "1"));
         Log.allure("Click on 'View Product' of first product");
         Assert.assertEquals(getTitle(driver),"Automation Exercise - Product Details");
@@ -53,7 +53,7 @@ public class ProductPageObject extends BasePage {
 
     public void verifySearchResult(String searchKey) {
         ArrayList<String> arrResultSearchProduct = new ArrayList<String>();
-        sendKeyToElement(driver,ProductPageUI.SEARCH_TEXTBOX,searchKey);
+        sendKeyToElement(driver,replaceText(ProductPageUI.SEARCH_TEXTBOX,"text","search_product"),searchKey);
         Log.allure("Enter product name in search input: %s",searchKey);
         clickToElement(driver,ProductPageUI.SEARCH_BUTTON);
         Log.allure("Click search button");

@@ -1,0 +1,33 @@
+[08-11-2023 21:35:17.634 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[08-11-2023 21:35:23.485 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[08-11-2023 21:35:23.550 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[08-11-2023 21:35:23.927 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[08-11-2023 21:35:26.497 INFO com.vmo.automationexercise.helper.Log] - Click 'Products' button
+[08-11-2023 21:35:26.765 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[08-11-2023 21:35:26.962 INFO com.vmo.automationexercise.helper.Log] - Click add to cart of first product
+[08-11-2023 21:35:27.717 INFO com.vmo.automationexercise.helper.Log] - Click 'Continue Shopping' button
+[08-11-2023 21:35:27.904 INFO com.vmo.automationexercise.helper.Log] - Hover over second product 
+[08-11-2023 21:35:28.081 INFO com.vmo.automationexercise.helper.Log] - Click add to cart of second product
+[08-11-2023 21:35:29.998 INFO com.vmo.automationexercise.helper.Log] - Click 'View Cart' button
+[08-11-2023 21:35:30.199 INFO com.vmo.automationexercise.helper.Log] - First product is added to Cart
+[08-11-2023 21:35:30.399 INFO com.vmo.automationexercise.helper.Log] - Second product is added to Cart
+[08-11-2023 21:35:30.482 INFO com.vmo.automationexercise.helper.Log] - Quantity of first product is: 1
+[08-11-2023 21:35:30.554 INFO com.vmo.automationexercise.helper.Log] - Quantity of second product is: 1
+[08-11-2023 21:35:30.624 INFO com.vmo.automationexercise.helper.Log] - Total price of first product is correct
+[08-11-2023 21:35:30.701 INFO com.vmo.automationexercise.helper.Log] - Total price of second product is correct
+[08-11-2023 21:35:30.796 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]

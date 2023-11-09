@@ -1,0 +1,37 @@
+[09-11-2023 21:47:09.248 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[09-11-2023 21:47:12.763 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[09-11-2023 21:47:12.808 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[09-11-2023 21:47:12.954 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[09-11-2023 21:47:16.752 INFO com.vmo.automationexercise.helper.Log] - Click 'Products' button
+[09-11-2023 21:47:17.040 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[09-11-2023 21:47:17.259 INFO com.vmo.automationexercise.helper.Log] - Click add to cart of first product
+[09-11-2023 21:47:17.971 INFO com.vmo.automationexercise.helper.Log] - Click 'Continue Shopping' button
+[09-11-2023 21:47:18.133 INFO com.vmo.automationexercise.helper.Log] - Hover over second product 
+[09-11-2023 21:47:18.346 INFO com.vmo.automationexercise.helper.Log] - Click add to cart of second product
+[09-11-2023 21:47:20.788 INFO com.vmo.automationexercise.helper.Log] - Click 'View Cart' button
+[09-11-2023 21:47:21.082 INFO com.vmo.automationexercise.helper.Log] - First product is added to Cart
+[09-11-2023 21:47:21.278 INFO com.vmo.automationexercise.helper.Log] - Second product is added to Cart
+[09-11-2023 21:47:21.375 INFO com.vmo.automationexercise.helper.Log] - Quantity of first product is: 1
+[09-11-2023 21:47:21.478 INFO com.vmo.automationexercise.helper.Log] - Quantity of second product is: 1
+[09-11-2023 21:47:21.572 INFO com.vmo.automationexercise.helper.Log] - Total price of first product is correct
+[09-11-2023 21:47:21.661 INFO com.vmo.automationexercise.helper.Log] - Total price of second product is correct
+[09-11-2023 21:47:21.758 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[09-11-2023 21:47:23.407 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[09-11-2023 21:47:26.873 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[09-11-2023 21:47:26.875 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[09-11-2023 21:47:26.893 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
