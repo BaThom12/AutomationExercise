@@ -1,0 +1,49 @@
+[19-11-2023 22:47:53.154 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[19-11-2023 22:47:57.964 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[19-11-2023 22:47:58.017 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[19-11-2023 22:47:59.151 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[19-11-2023 22:47:59.422 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[19-11-2023 22:47:59.683 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[19-11-2023 22:48:01.919 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[19-11-2023 22:48:01.936 INFO com.vmo.automationexercise.helper.Log] - Verify that cart page is displayed
+[19-11-2023 22:48:02.198 INFO com.vmo.automationexercise.helper.Log] - Click 'Proceed To Checkout' button
+[19-11-2023 22:48:03.214 INFO com.vmo.automationexercise.helper.Log] - Click 'Login' button
+[19-11-2023 22:48:03.214 INFO com.vmo.automationexercise.helper.Log] - Enter name: Michaele Daugherty
+[19-11-2023 22:48:03.214 INFO com.vmo.automationexercise.helper.Log] - Enter locator: //input[@name='name']
+[19-11-2023 22:48:03.214 INFO com.vmo.automationexercise.helper.Log] - Enter driver: ChromeDriver: chrome on windows (8ab1281330eeea668821f73aaaf7b8d5)
+[19-11-2023 22:48:03.593 INFO com.vmo.automationexercise.helper.Log] - Enter name: Michaele Daugherty
+[19-11-2023 22:48:03.846 INFO com.vmo.automationexercise.helper.Log] - Enter email: sima.schuppe@gmail.com
+[19-11-2023 22:48:04.837 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[19-11-2023 22:48:04.993 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[19-11-2023 22:48:05.217 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[19-11-2023 22:48:05.531 INFO com.vmo.automationexercise.helper.Log] - Enter password: eatznia0wqg5ap
+[19-11-2023 22:48:05.752 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[19-11-2023 22:48:05.892 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[19-11-2023 22:48:06.083 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[19-11-2023 22:48:06.281 INFO com.vmo.automationexercise.helper.Log] - Tick on Sign up for our newsletter! checkbox
+[19-11-2023 22:48:06.427 INFO com.vmo.automationexercise.helper.Log] - Tick on Receive special offers from our partners! checkbox
+[19-11-2023 22:48:06.714 INFO com.vmo.automationexercise.helper.Log] - Enter first name: Michaele
+[19-11-2023 22:48:06.985 INFO com.vmo.automationexercise.helper.Log] - Enter last name: Daugherty
+[19-11-2023 22:48:07.236 INFO com.vmo.automationexercise.helper.Log] - Enter company: Huels, Wuckert and Ondricka
+[19-11-2023 22:48:07.520 INFO com.vmo.automationexercise.helper.Log] - Enter address1: Suite 091 30420 Goyette Harbors, Port Mathewtown, CT 77779-3258
+[19-11-2023 22:48:07.789 INFO com.vmo.automationexercise.helper.Log] - Enter address2: 6673
+[19-11-2023 22:48:07.979 INFO com.vmo.automationexercise.helper.Log] - Choose country: Canada
+[19-11-2023 22:48:08.187 INFO com.vmo.automationexercise.helper.Log] - Enter state: West Virginia
+[19-11-2023 22:48:08.439 INFO com.vmo.automationexercise.helper.Log] - Enter city: Port Kaseyport
+[19-11-2023 22:48:08.703 INFO com.vmo.automationexercise.helper.Log] - Enter zipcode: 48674
+[19-11-2023 22:48:08.904 INFO com.vmo.automationexercise.helper.Log] - Enter phone number: 823-903-7448
+[19-11-2023 22:48:10.264 INFO com.vmo.automationexercise.helper.Log] - Click on Create account button
+[19-11-2023 22:48:10.414 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT CREATED!' is visible
+[19-11-2023 22:48:13.094 INFO com.vmo.automationexercise.helper.Log] - Click Continue button to login
+[19-11-2023 22:48:13.190 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[19-11-2023 22:48:14.216 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[19-11-2023 22:48:15.808 INFO com.vmo.automationexercise.helper.Log] - Click 'Proceed To Checkout' button
+[19-11-2023 22:48:15.808 INFO com.vmo.automationexercise.helper.Log] - Verify Name Details Successfully
+[19-11-2023 22:48:15.947 INFO com.vmo.automationexercise.helper.Log] - Verify Review Your Order Successfully
+[19-11-2023 22:48:16.979 INFO com.vmo.automationexercise.helper.Log] - Enter description in comment text area and click 'Place Order'
+[19-11-2023 22:48:17.320 INFO com.vmo.automationexercise.helper.Log] - Enter payment details: Name on Card
+[19-11-2023 22:48:17.548 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Card Number
+[19-11-2023 22:48:17.836 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  CVC
+[19-11-2023 22:48:18.077 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Expiration month
+[19-11-2023 22:48:18.326 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Expiration year
+[19-11-2023 22:48:20.628 INFO com.vmo.automationexercise.helper.Log] - Click 'Pay and Confirm Order' button

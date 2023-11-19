@@ -25,10 +25,10 @@ public class AuthenPageObject extends BasePage {
     }
 
     public void verifyLoginSuccessful() {
-        sendKeyToElement(driver,replaceText(AuthenPageUI.EMAIL_TEXTBOX,"text","login-email"),"tia.mclaughlin@gmail.com");
-        Log.allure("Enter email: tia.mclaughlin@gmail.com");
-        sendKeyToElement(driver,replaceText(AuthenPageUI.COMMON_TEXTBOX,"text","password"),"uaq3hhz2sdke6");
-        Log.allure("Enter password: uaq3hhz2sdke6");
+        sendKeyToElement(driver,replaceText(AuthenPageUI.EMAIL_TEXTBOX,"text","login-email"),"robby.howell@yahoo.com");
+        Log.allure("Enter email: robby.howell@yahoo.com");
+        sendKeyToElement(driver,replaceText(AuthenPageUI.COMMON_TEXTBOX,"text","password"),"aiwhzw15q7");
+        Log.allure("Enter password: aiwhzw15q7");
         clickToElement(driver,AuthenPageUI.LOGIN_BUTTON);
         Log.allure("Click 'login' button");
         Assert.assertTrue(getTextElement(driver, AccountPageUI.LOGIN_LABEL).contains("Logged in as"));

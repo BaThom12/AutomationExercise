@@ -1,0 +1,27 @@
+[18-11-2023 09:35:01.176 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[18-11-2023 09:35:06.482 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[18-11-2023 09:35:06.531 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[18-11-2023 09:35:09.065 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[18-11-2023 09:35:10.994 INFO com.vmo.automationexercise.helper.Log] - Click on 'Products' button
+[18-11-2023 09:35:11.017 INFO com.vmo.automationexercise.helper.Log] - Verify user is navigated to ALL PRODUCTS page successfully
+[18-11-2023 09:35:11.168 INFO com.vmo.automationexercise.helper.Log] - The products list is visible
+[18-11-2023 09:35:11.340 INFO com.vmo.automationexercise.helper.Log] - Enter product name in search input: Men
+[18-11-2023 09:35:12.516 INFO com.vmo.automationexercise.helper.Log] - Click search button
+[18-11-2023 09:35:12.587 INFO com.vmo.automationexercise.helper.Log] - Verify 'SEARCHED PRODUCTS' is visible
+[18-11-2023 09:35:12.711 INFO com.vmo.automationexercise.helper.Log] - Verify all the products related to search are visible
+[18-11-2023 09:36:13.294 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]

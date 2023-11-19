@@ -1,0 +1,13 @@
+[18-11-2023 08:20:42.555 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[18-11-2023 08:20:46.155 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[18-11-2023 08:20:46.184 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[18-11-2023 08:20:49.465 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[18-11-2023 08:20:51.356 INFO com.vmo.automationexercise.helper.Log] - Click on 'Products' button
+[18-11-2023 08:20:51.373 INFO com.vmo.automationexercise.helper.Log] - Verify user is navigated to ALL PRODUCTS page successfully
+[18-11-2023 08:20:51.546 INFO com.vmo.automationexercise.helper.Log] - The products list is visible
+[18-11-2023 08:20:51.746 INFO com.vmo.automationexercise.helper.Log] - Enter product name in search input: Men
+[18-11-2023 08:20:53.316 INFO com.vmo.automationexercise.helper.Log] - Click search button
+[18-11-2023 08:20:53.429 INFO com.vmo.automationexercise.helper.Log] - Verify 'SEARCHED PRODUCTS' is visible
+[18-11-2023 08:20:53.606 INFO com.vmo.automationexercise.helper.Log] - Verify all the products related to search are visible
+[18-11-2023 08:20:57.382 INFO com.vmo.automationexercise.helper.Log] - Add those products to cart
+[18-11-2023 08:20:59.313 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button

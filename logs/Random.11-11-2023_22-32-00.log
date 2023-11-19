@@ -1,0 +1,40 @@
+[11-11-2023 22:32:04.141 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[11-11-2023 22:32:09.416 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[11-11-2023 22:32:09.502 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[11-11-2023 22:32:10.492 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[11-11-2023 22:32:10.690 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[11-11-2023 22:32:10.901 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[11-11-2023 22:32:13.915 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[11-11-2023 22:32:13.932 INFO com.vmo.automationexercise.helper.Log] - Verify that cart page is displayed
+[11-11-2023 22:32:14.165 INFO com.vmo.automationexercise.helper.Log] - Click Proceed To Checkout
+[11-11-2023 22:32:15.044 INFO com.vmo.automationexercise.helper.Log] - Click 'Register / Login' button
+[11-11-2023 22:32:15.051 INFO com.vmo.automationexercise.helper.Log] - Enter name: Oscar Johnson
+[11-11-2023 22:32:15.051 INFO com.vmo.automationexercise.helper.Log] - Enter locator: //input[@name='name']
+[11-11-2023 22:32:15.051 INFO com.vmo.automationexercise.helper.Log] - Enter driver: ChromeDriver: chrome on windows (14bdc056ebf56398df2eb949a5f6807d)
+[11-11-2023 22:32:15.438 INFO com.vmo.automationexercise.helper.Log] - Enter name: Oscar Johnson
+[11-11-2023 22:32:15.717 INFO com.vmo.automationexercise.helper.Log] - Enter email: kip.jaskolski@yahoo.com
+[11-11-2023 22:32:16.700 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[11-11-2023 22:32:16.805 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[11-11-2023 22:32:17.043 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[11-11-2023 22:32:17.326 INFO com.vmo.automationexercise.helper.Log] - Enter password: w4mfwi4s4ih
+[11-11-2023 22:32:17.522 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[11-11-2023 22:32:17.686 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[11-11-2023 22:32:17.844 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[11-11-2023 22:32:18.045 INFO com.vmo.automationexercise.helper.Log] - Tick on Sign up for our newsletter! checkbox
+[11-11-2023 22:32:18.190 INFO com.vmo.automationexercise.helper.Log] - Tick on Receive special offers from our partners! checkbox
+[11-11-2023 22:32:18.410 INFO com.vmo.automationexercise.helper.Log] - Enter first name: Enrique
+[11-11-2023 22:32:18.628 INFO com.vmo.automationexercise.helper.Log] - Enter last name: Bechtelar
+[11-11-2023 22:32:18.908 INFO com.vmo.automationexercise.helper.Log] - Enter company: Torp LLC
+[11-11-2023 22:32:19.116 INFO com.vmo.automationexercise.helper.Log] - Enter address1: Suite 002 91422 Skye Overpass, Terrybury, WV 74826
+[11-11-2023 22:32:19.382 INFO com.vmo.automationexercise.helper.Log] - Enter address2: 7788
+[11-11-2023 22:32:19.551 INFO com.vmo.automationexercise.helper.Log] - Choose country: Canada
+[11-11-2023 22:32:19.762 INFO com.vmo.automationexercise.helper.Log] - Enter state: Alabama
+[11-11-2023 22:32:20.001 INFO com.vmo.automationexercise.helper.Log] - Enter city: Bernierburgh
+[11-11-2023 22:32:20.191 INFO com.vmo.automationexercise.helper.Log] - Enter zipcode: 83551-0297
+[11-11-2023 22:32:20.400 INFO com.vmo.automationexercise.helper.Log] - Enter phone number: (241) 410-0519
+[11-11-2023 22:32:21.487 INFO com.vmo.automationexercise.helper.Log] - Click on Create account button
+[11-11-2023 22:32:21.534 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT CREATED!' is visible
+[11-11-2023 22:32:24.243 INFO com.vmo.automationexercise.helper.Log] - Click Continue button to login
+[11-11-2023 22:32:24.329 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[11-11-2023 22:32:25.450 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[11-11-2023 22:32:26.655 INFO com.vmo.automationexercise.helper.Log] - Click 'Proceed To Checkout' button

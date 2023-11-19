@@ -1,0 +1,30 @@
+[19-11-2023 21:45:51.183 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[19-11-2023 21:45:55.393 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[19-11-2023 21:45:55.443 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[19-11-2023 21:45:55.887 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[19-11-2023 21:45:56.636 INFO com.vmo.automationexercise.helper.Log] -  Click on 'Signup / Login' button
+[19-11-2023 21:45:56.812 INFO com.vmo.automationexercise.helper.Log] -  Verify 'Login to your account' is visible
+[19-11-2023 21:45:57.133 INFO com.vmo.automationexercise.helper.Log] - Enter email: tia.mclaughlin@gmail.com
+[19-11-2023 21:45:57.383 INFO com.vmo.automationexercise.helper.Log] - Enter password: uaq3hhz2sdke6
+[19-11-2023 21:46:01.452 INFO com.vmo.automationexercise.helper.Log] - Click 'login' button
+[19-11-2023 21:46:01.581 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[19-11-2023 21:46:01.739 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[19-11-2023 21:46:01.901 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[19-11-2023 21:47:03.931 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[19-11-2023 21:47:10.110 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[19-11-2023 21:47:10.110 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[19-11-2023 21:47:10.171 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[19-11-2023 21:47:10.946 INFO com.vmo.automationexercise.helper.Log] - Click Signup button
+[19-11-2023 21:47:11.016 INFO com.vmo.automationexercise.helper.Log] - Verify 'New User Signup!' is visible
+[19-11-2023 21:47:11.026 INFO com.vmo.automationexercise.helper.Log] - Enter name: Everett Schmidt
+[19-11-2023 21:47:11.026 INFO com.vmo.automationexercise.helper.Log] - Enter locator: //input[@name='name']
+[19-11-2023 21:47:11.026 INFO com.vmo.automationexercise.helper.Log] - Enter driver: ChromeDriver: chrome on windows (c71e3b16e3088e458b67eb2fc8e147e2)
+[19-11-2023 21:47:11.301 INFO com.vmo.automationexercise.helper.Log] - Enter name: Everett Schmidt
+[19-11-2023 21:47:11.547 INFO com.vmo.automationexercise.helper.Log] - Enter email: lance.gerhold@gmail.com
+[19-11-2023 21:47:11.967 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[19-11-2023 21:47:14.098 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[19-11-2023 21:47:14.289 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[19-11-2023 21:47:14.548 INFO com.vmo.automationexercise.helper.Log] - Enter password: 8kkb3h4gh973g
+[19-11-2023 21:47:14.730 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[19-11-2023 21:47:14.862 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[19-11-2023 21:47:14.999 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989

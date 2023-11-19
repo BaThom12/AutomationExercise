@@ -1,0 +1,7 @@
+[13-11-2023 21:56:10.742 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[13-11-2023 21:56:15.685 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[13-11-2023 21:56:15.743 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[13-11-2023 21:56:18.874 INFO com.vmo.automationexercise.helper.Log] - Verify that Brands are visible on left side bar
+[13-11-2023 21:56:20.131 INFO com.vmo.automationexercise.helper.Log] - Click on any brand name
+[13-11-2023 21:56:20.151 INFO com.vmo.automationexercise.helper.Log] - Verify that user is navigated to brand page
+[13-11-2023 21:56:20.338 INFO com.vmo.automationexercise.helper.Log] - Verify that brand products are displayed

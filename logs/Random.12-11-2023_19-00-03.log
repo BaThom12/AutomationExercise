@@ -1,0 +1,65 @@
+[12-11-2023 19:00:07.544 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[12-11-2023 19:00:11.620 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[12-11-2023 19:00:11.658 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[12-11-2023 19:00:12.718 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[12-11-2023 19:00:12.930 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[12-11-2023 19:00:13.193 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[12-11-2023 19:00:15.041 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[12-11-2023 19:00:15.065 INFO com.vmo.automationexercise.helper.Log] - Verify that cart page is displayed
+[12-11-2023 19:00:15.316 INFO com.vmo.automationexercise.helper.Log] - Click Proceed To Checkout
+[12-11-2023 19:00:16.184 INFO com.vmo.automationexercise.helper.Log] - Click 'Register / Login' button
+[12-11-2023 19:00:16.184 INFO com.vmo.automationexercise.helper.Log] - Enter name: Quiana Gerlach MD
+[12-11-2023 19:00:16.186 INFO com.vmo.automationexercise.helper.Log] - Enter locator: //input[@name='name']
+[12-11-2023 19:00:16.186 INFO com.vmo.automationexercise.helper.Log] - Enter driver: ChromeDriver: chrome on windows (a9afe236839ee06f4091f62115300557)
+[12-11-2023 19:00:16.574 INFO com.vmo.automationexercise.helper.Log] - Enter name: Quiana Gerlach MD
+[12-11-2023 19:00:16.818 INFO com.vmo.automationexercise.helper.Log] - Enter email: brant.champlin@yahoo.com
+[12-11-2023 19:00:17.691 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[12-11-2023 19:00:17.935 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[12-11-2023 19:00:18.065 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[12-11-2023 19:00:18.324 INFO com.vmo.automationexercise.helper.Log] - Enter password: madwqxhpc498
+[12-11-2023 19:00:18.542 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[12-11-2023 19:00:18.703 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[12-11-2023 19:00:18.865 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[12-11-2023 19:00:19.050 INFO com.vmo.automationexercise.helper.Log] - Tick on Sign up for our newsletter! checkbox
+[12-11-2023 19:00:19.213 INFO com.vmo.automationexercise.helper.Log] - Tick on Receive special offers from our partners! checkbox
+[12-11-2023 19:00:19.473 INFO com.vmo.automationexercise.helper.Log] - Enter first name: Hunter
+[12-11-2023 19:00:19.748 INFO com.vmo.automationexercise.helper.Log] - Enter last name: Lakin
+[12-11-2023 19:00:19.994 INFO com.vmo.automationexercise.helper.Log] - Enter company: Sauer, Marvin and Nicolas
+[12-11-2023 19:00:20.238 INFO com.vmo.automationexercise.helper.Log] - Enter address1: Suite 985 0721 Skiles Plains, Alphonsoborough, NE 23854
+[12-11-2023 19:00:20.479 INFO com.vmo.automationexercise.helper.Log] - Enter address2: 754
+[12-11-2023 19:00:20.633 INFO com.vmo.automationexercise.helper.Log] - Choose country: Canada
+[12-11-2023 19:00:20.862 INFO com.vmo.automationexercise.helper.Log] - Enter state: Louisiana
+[12-11-2023 19:00:21.085 INFO com.vmo.automationexercise.helper.Log] - Enter city: Sipesstad
+[12-11-2023 19:00:21.367 INFO com.vmo.automationexercise.helper.Log] - Enter zipcode: 97320
+[12-11-2023 19:00:21.651 INFO com.vmo.automationexercise.helper.Log] - Enter phone number: 373-284-4932
+[12-11-2023 19:00:22.700 INFO com.vmo.automationexercise.helper.Log] - Click on Create account button
+[12-11-2023 19:00:22.783 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT CREATED!' is visible
+[12-11-2023 19:00:25.419 INFO com.vmo.automationexercise.helper.Log] - Click Continue button to login
+[12-11-2023 19:00:25.510 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[12-11-2023 19:00:26.567 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[12-11-2023 19:00:27.800 INFO com.vmo.automationexercise.helper.Log] - Click 'Proceed To Checkout' button
+[12-11-2023 19:00:28.293 INFO com.vmo.automationexercise.helper.Log] - Verify Address Details Successfully
+[12-11-2023 19:00:28.416 INFO com.vmo.automationexercise.helper.Log] - Verify Review Your Order Successfully
+[12-11-2023 19:00:30.783 INFO com.vmo.automationexercise.helper.Log] - Enter description in comment text area and click 'Place Order'
+[12-11-2023 19:00:31.000 INFO com.vmo.automationexercise.helper.Log] - Enter payment details: Name on Card
+[12-11-2023 19:00:31.204 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Card Number
+[12-11-2023 19:00:31.448 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  CVC
+[12-11-2023 19:00:31.697 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Expiration month
+[12-11-2023 19:00:31.943 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Expiration year
+[12-11-2023 19:00:34.188 INFO com.vmo.automationexercise.helper.Log] - Click 'Pay and Confirm Order' button
+[12-11-2023 19:01:34.415 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]

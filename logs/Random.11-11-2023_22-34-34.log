@@ -1,0 +1,56 @@
+[11-11-2023 22:34:38.255 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[11-11-2023 22:34:43.481 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[11-11-2023 22:34:43.544 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[11-11-2023 22:34:44.561 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[11-11-2023 22:34:44.734 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[11-11-2023 22:34:44.948 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[11-11-2023 22:34:47.032 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[11-11-2023 22:34:47.053 INFO com.vmo.automationexercise.helper.Log] - Verify that cart page is displayed
+[11-11-2023 22:34:47.279 INFO com.vmo.automationexercise.helper.Log] - Click Proceed To Checkout
+[11-11-2023 22:34:48.189 INFO com.vmo.automationexercise.helper.Log] - Click 'Register / Login' button
+[11-11-2023 22:34:48.192 INFO com.vmo.automationexercise.helper.Log] - Enter name: Josh Conroy PhD
+[11-11-2023 22:34:48.194 INFO com.vmo.automationexercise.helper.Log] - Enter locator: //input[@name='name']
+[11-11-2023 22:34:48.194 INFO com.vmo.automationexercise.helper.Log] - Enter driver: ChromeDriver: chrome on windows (a883dd811eb652addd99c792b7a1e366)
+[11-11-2023 22:34:48.547 INFO com.vmo.automationexercise.helper.Log] - Enter name: Josh Conroy PhD
+[11-11-2023 22:34:48.784 INFO com.vmo.automationexercise.helper.Log] - Enter email: orville.jakubowski@gmail.com
+[11-11-2023 22:34:49.814 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[11-11-2023 22:34:49.970 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[11-11-2023 22:34:50.158 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[11-11-2023 22:34:50.436 INFO com.vmo.automationexercise.helper.Log] - Enter password: pnju6lmwzvuj
+[11-11-2023 22:34:50.616 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[11-11-2023 22:34:50.730 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[11-11-2023 22:34:50.860 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[11-11-2023 22:34:51.001 INFO com.vmo.automationexercise.helper.Log] - Tick on Sign up for our newsletter! checkbox
+[11-11-2023 22:34:51.116 INFO com.vmo.automationexercise.helper.Log] - Tick on Receive special offers from our partners! checkbox
+[11-11-2023 22:34:51.321 INFO com.vmo.automationexercise.helper.Log] - Enter first name: Lou
+[11-11-2023 22:34:51.517 INFO com.vmo.automationexercise.helper.Log] - Enter last name: Beer
+[11-11-2023 22:34:51.761 INFO com.vmo.automationexercise.helper.Log] - Enter company: Lueilwitz-Rath
+[11-11-2023 22:34:51.995 INFO com.vmo.automationexercise.helper.Log] - Enter address1: 05830 Rice Trail, East Meridith, MI 44305-5283
+[11-11-2023 22:34:52.229 INFO com.vmo.automationexercise.helper.Log] - Enter address2: 155
+[11-11-2023 22:34:52.408 INFO com.vmo.automationexercise.helper.Log] - Choose country: Canada
+[11-11-2023 22:34:52.635 INFO com.vmo.automationexercise.helper.Log] - Enter state: Louisiana
+[11-11-2023 22:34:52.878 INFO com.vmo.automationexercise.helper.Log] - Enter city: Lake Noella
+[11-11-2023 22:34:53.106 INFO com.vmo.automationexercise.helper.Log] - Enter zipcode: 73649
+[11-11-2023 22:34:53.345 INFO com.vmo.automationexercise.helper.Log] - Enter phone number: 1-184-724-3071
+[11-11-2023 22:34:55.740 INFO com.vmo.automationexercise.helper.Log] - Click on Create account button
+[11-11-2023 22:34:55.859 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT CREATED!' is visible
+[11-11-2023 22:34:56.035 INFO com.vmo.automationexercise.helper.Log] - Click Continue button to login
+[11-11-2023 22:35:04.171 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[11-11-2023 22:35:05.241 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[11-11-2023 22:35:06.539 INFO com.vmo.automationexercise.helper.Log] - Click 'Proceed To Checkout' button
+[11-11-2023 22:35:07.190 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]

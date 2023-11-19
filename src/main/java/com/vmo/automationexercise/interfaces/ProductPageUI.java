@@ -17,6 +17,12 @@ public class ProductPageUI {
     public static final String SEARCH_PRODUCT_TITLE = "//h2[@class='title text-center']";
     public static final String PRODUCT_NAME = "//div[@class='productinfo text-center']/p";
     public static final String ADD_TO_CART_BUTTON = "//button[@class='btn btn-default cart']";
+    public static final String ADD_TO_CART_SEARCHED_PRODUCTS = "//div[@class='overlay-content']/a";
+    public static final String INFOR_REVIEW = "//input[@id='text']"; //name,email
+    public static final String COMMENT_REVIEW = "//textarea[@name='review']";
+    public static final String BUTTON_REVIEW = "//button[@id='button-review']";
+    public static final String MESSAGE_REVIEW_SUCCESS = "//div[@class='alert-success alert']/span";
+
 
 
 

@@ -1,0 +1,82 @@
+[19-11-2023 21:51:07.140 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[19-11-2023 21:51:10.615 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[19-11-2023 21:51:10.646 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[19-11-2023 21:51:11.061 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[19-11-2023 21:51:12.043 INFO com.vmo.automationexercise.helper.Log] -  Click on 'Signup / Login' button
+[19-11-2023 21:51:12.199 INFO com.vmo.automationexercise.helper.Log] -  Verify 'Login to your account' is visible
+[19-11-2023 21:51:12.517 INFO com.vmo.automationexercise.helper.Log] - Enter email: tia.mclaughlin@gmail.com
+[19-11-2023 21:51:12.755 INFO com.vmo.automationexercise.helper.Log] - Enter password: uaq3hhz2sdke6
+[19-11-2023 21:51:15.336 INFO com.vmo.automationexercise.helper.Log] - Click 'login' button
+[19-11-2023 21:51:15.473 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[19-11-2023 21:51:15.775 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[19-11-2023 21:51:15.934 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[19-11-2023 21:51:46.036 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[19-11-2023 21:51:46.058 INFO com.vmo.automationexercise.helper.Log] - Verify that cart page is displayed
+[19-11-2023 21:51:47.103 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[19-11-2023 21:51:48.497 INFO com.vmo.automationexercise.helper.Log] - Click 'Proceed To Checkout' button
+[19-11-2023 21:51:48.848 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[19-11-2023 21:51:50.597 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[19-11-2023 21:51:53.938 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[19-11-2023 21:51:53.941 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[19-11-2023 21:51:54.010 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[19-11-2023 21:51:55.342 INFO com.vmo.automationexercise.helper.Log] - Click Signup button
+[19-11-2023 21:51:55.478 INFO com.vmo.automationexercise.helper.Log] - Verify 'New User Signup!' is visible
+[19-11-2023 21:51:55.478 INFO com.vmo.automationexercise.helper.Log] - Enter name: Maryln Ruecker
+[19-11-2023 21:51:55.478 INFO com.vmo.automationexercise.helper.Log] - Enter locator: //input[@name='name']
+[19-11-2023 21:51:55.478 INFO com.vmo.automationexercise.helper.Log] - Enter driver: ChromeDriver: chrome on windows (65648262217ebe50ec95f9ba8a417fef)
+[19-11-2023 21:51:55.732 INFO com.vmo.automationexercise.helper.Log] - Enter name: Maryln Ruecker
+[19-11-2023 21:51:55.920 INFO com.vmo.automationexercise.helper.Log] - Enter email: robby.howell@yahoo.com
+[19-11-2023 21:51:56.711 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[19-11-2023 21:51:56.836 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[19-11-2023 21:51:57.035 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[19-11-2023 21:51:57.224 INFO com.vmo.automationexercise.helper.Log] - Enter password: aiwhzw15q7
+[19-11-2023 21:51:57.345 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[19-11-2023 21:51:57.433 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[19-11-2023 21:51:57.508 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[19-11-2023 21:51:57.632 INFO com.vmo.automationexercise.helper.Log] - Tick on Sign up for our newsletter! checkbox
+[19-11-2023 21:51:57.782 INFO com.vmo.automationexercise.helper.Log] - Tick on Receive special offers from our partners! checkbox
+[19-11-2023 21:51:58.030 INFO com.vmo.automationexercise.helper.Log] - Enter first name: Maryln
+[19-11-2023 21:51:58.199 INFO com.vmo.automationexercise.helper.Log] - Enter last name: Ruecker
+[19-11-2023 21:51:58.446 INFO com.vmo.automationexercise.helper.Log] - Enter company: Lueilwitz LLC
+[19-11-2023 21:51:58.746 INFO com.vmo.automationexercise.helper.Log] - Enter address1: Suite 948 5392 Rutherford Glens, Gottliebtown, RI 43687
+[19-11-2023 21:51:58.986 INFO com.vmo.automationexercise.helper.Log] - Enter address2: 579
+[19-11-2023 21:51:59.160 INFO com.vmo.automationexercise.helper.Log] - Choose country: Canada
+[19-11-2023 21:51:59.409 INFO com.vmo.automationexercise.helper.Log] - Enter state: Nebraska
+[19-11-2023 21:51:59.677 INFO com.vmo.automationexercise.helper.Log] - Enter city: Janeanville
+[19-11-2023 21:51:59.937 INFO com.vmo.automationexercise.helper.Log] - Enter zipcode: 46957
+[19-11-2023 21:52:00.176 INFO com.vmo.automationexercise.helper.Log] - Enter phone number: 143-430-3725
+[19-11-2023 21:52:01.350 INFO com.vmo.automationexercise.helper.Log] - Click on Create account button
+[19-11-2023 21:52:01.495 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT CREATED!' is visible
+[19-11-2023 21:52:04.110 INFO com.vmo.automationexercise.helper.Log] - Click Continue button to login
+[19-11-2023 21:52:04.227 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[19-11-2023 21:52:04.412 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[19-11-2023 21:52:04.536 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[19-11-2023 21:52:06.281 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[19-11-2023 21:52:06.299 INFO com.vmo.automationexercise.helper.Log] - Verify that cart page is displayed
+[19-11-2023 21:52:07.103 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[19-11-2023 21:52:08.459 INFO com.vmo.automationexercise.helper.Log] - Click 'Proceed To Checkout' button
+[19-11-2023 21:52:08.548 INFO com.vmo.automationexercise.helper.Log] - Verify Name Details Successfully
+[19-11-2023 21:52:08.794 INFO com.vmo.automationexercise.helper.Log] - Verify Review Your Order Successfully
+[19-11-2023 21:52:09.860 INFO com.vmo.automationexercise.helper.Log] - Enter description in comment text area and click 'Place Order'
+[19-11-2023 21:52:10.199 INFO com.vmo.automationexercise.helper.Log] - Enter payment details: Name on Card
+[19-11-2023 21:52:10.416 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Card Number
+[19-11-2023 21:52:10.618 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  CVC
+[19-11-2023 21:52:10.832 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Expiration month
+[19-11-2023 21:52:11.066 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Expiration year
+[19-11-2023 21:52:13.252 INFO com.vmo.automationexercise.helper.Log] - Click 'Pay and Confirm Order' button
+[19-11-2023 21:52:13.365 INFO com.vmo.automationexercise.helper.Log] - Verify success message 'Your order has been placed successfully!'

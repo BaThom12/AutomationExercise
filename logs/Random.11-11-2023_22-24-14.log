@@ -1,0 +1,40 @@
+[11-11-2023 22:24:18.666 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[11-11-2023 22:24:21.967 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[11-11-2023 22:24:22.009 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[11-11-2023 22:24:22.392 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[11-11-2023 22:24:22.555 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[11-11-2023 22:24:22.714 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[11-11-2023 22:24:24.482 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[11-11-2023 22:24:24.498 INFO com.vmo.automationexercise.helper.Log] - Verify that cart page is displayed
+[11-11-2023 22:24:24.693 INFO com.vmo.automationexercise.helper.Log] - Click Proceed To Checkout
+[11-11-2023 22:24:25.551 INFO com.vmo.automationexercise.helper.Log] - Click 'Register / Login' button
+[11-11-2023 22:24:25.552 INFO com.vmo.automationexercise.helper.Log] - Enter name: Palmer Abernathy
+[11-11-2023 22:24:25.554 INFO com.vmo.automationexercise.helper.Log] - Enter locator: //input[@name='name']
+[11-11-2023 22:24:25.555 INFO com.vmo.automationexercise.helper.Log] - Enter driver: ChromeDriver: chrome on windows (000df2fffb59a7269c12f5fbb3321902)
+[11-11-2023 22:24:25.880 INFO com.vmo.automationexercise.helper.Log] - Enter name: Palmer Abernathy
+[11-11-2023 22:24:26.140 INFO com.vmo.automationexercise.helper.Log] - Enter email: lamar.smitham@hotmail.com
+[11-11-2023 22:24:27.007 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[11-11-2023 22:24:27.188 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[11-11-2023 22:24:27.415 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[11-11-2023 22:24:27.690 INFO com.vmo.automationexercise.helper.Log] - Enter password: 660d6tgxp66asb
+[11-11-2023 22:24:27.911 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[11-11-2023 22:24:28.082 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[11-11-2023 22:24:28.260 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[11-11-2023 22:24:28.478 INFO com.vmo.automationexercise.helper.Log] - Tick on Sign up for our newsletter! checkbox
+[11-11-2023 22:24:28.640 INFO com.vmo.automationexercise.helper.Log] - Tick on Receive special offers from our partners! checkbox
+[11-11-2023 22:24:28.805 INFO com.vmo.automationexercise.helper.Log] - Enter first name: Kum
+[11-11-2023 22:24:29.047 INFO com.vmo.automationexercise.helper.Log] - Enter last name: Kunze
+[11-11-2023 22:24:29.306 INFO com.vmo.automationexercise.helper.Log] - Enter company: Gerlach Inc
+[11-11-2023 22:24:29.543 INFO com.vmo.automationexercise.helper.Log] - Enter address1: 755 Ozella Park, Katlynton, TN 81873
+[11-11-2023 22:24:29.776 INFO com.vmo.automationexercise.helper.Log] - Enter address2: 90661
+[11-11-2023 22:24:29.977 INFO com.vmo.automationexercise.helper.Log] - Choose country: Canada
+[11-11-2023 22:24:30.199 INFO com.vmo.automationexercise.helper.Log] - Enter state: Vermont
+[11-11-2023 22:24:30.458 INFO com.vmo.automationexercise.helper.Log] - Enter city: New Veronikaburgh
+[11-11-2023 22:24:30.696 INFO com.vmo.automationexercise.helper.Log] - Enter zipcode: 02295-5139
+[11-11-2023 22:24:30.943 INFO com.vmo.automationexercise.helper.Log] - Enter phone number: 459-453-4022
+[11-11-2023 22:24:32.212 INFO com.vmo.automationexercise.helper.Log] - Click on Create account button
+[11-11-2023 22:24:32.321 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT CREATED!' is visible
+[11-11-2023 22:24:34.910 INFO com.vmo.automationexercise.helper.Log] - Click Continue button to login
+[11-11-2023 22:24:34.968 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[11-11-2023 22:24:36.008 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[11-11-2023 22:24:37.185 INFO com.vmo.automationexercise.helper.Log] - Click 'Proceed To Checkout' button

@@ -1,0 +1,52 @@
+[19-11-2023 21:30:58.248 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[19-11-2023 21:31:01.695 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[19-11-2023 21:31:01.733 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[19-11-2023 21:31:02.141 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[19-11-2023 21:31:03.105 INFO com.vmo.automationexercise.helper.Log] -  Click on 'Signup / Login' button
+[19-11-2023 21:31:03.228 INFO com.vmo.automationexercise.helper.Log] -  Verify 'Login to your account' is visible
+[19-11-2023 21:31:03.537 INFO com.vmo.automationexercise.helper.Log] - Enter email: tia.mclaughlin@gmail.com
+[19-11-2023 21:31:03.710 INFO com.vmo.automationexercise.helper.Log] - Enter password: uaq3hhz2sdke6
+[19-11-2023 21:31:08.431 INFO com.vmo.automationexercise.helper.Log] - Click 'login' button
+[19-11-2023 21:31:08.597 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[19-11-2023 21:31:08.820 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[19-11-2023 21:31:08.978 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[19-11-2023 21:32:10.796 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[19-11-2023 21:32:14.537 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[19-11-2023 21:32:14.539 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[19-11-2023 21:32:14.576 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[19-11-2023 21:32:15.276 INFO com.vmo.automationexercise.helper.Log] - Click Signup button
+[19-11-2023 21:32:15.342 INFO com.vmo.automationexercise.helper.Log] - Verify 'New User Signup!' is visible
+[19-11-2023 21:32:15.342 INFO com.vmo.automationexercise.helper.Log] - Enter name: Irving Sawayn
+[19-11-2023 21:32:15.342 INFO com.vmo.automationexercise.helper.Log] - Enter locator: //input[@name='name']
+[19-11-2023 21:32:15.342 INFO com.vmo.automationexercise.helper.Log] - Enter driver: ChromeDriver: chrome on windows (8944e627bcaf75f48019692556e6207c)
+[19-11-2023 21:32:15.594 INFO com.vmo.automationexercise.helper.Log] - Enter name: Irving Sawayn
+[19-11-2023 21:32:15.768 INFO com.vmo.automationexercise.helper.Log] - Enter email: cristin.stroman@yahoo.com
+[19-11-2023 21:32:16.509 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[19-11-2023 21:32:16.699 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[19-11-2023 21:32:16.850 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[19-11-2023 21:32:17.053 INFO com.vmo.automationexercise.helper.Log] - Enter password: vwj79p4n
+[19-11-2023 21:32:17.240 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[19-11-2023 21:32:17.357 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[19-11-2023 21:32:17.490 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[19-11-2023 21:32:17.636 INFO com.vmo.automationexercise.helper.Log] - Tick on Sign up for our newsletter! checkbox
+[19-11-2023 21:32:17.716 INFO com.vmo.automationexercise.helper.Log] - Tick on Receive special offers from our partners! checkbox
+[19-11-2023 21:32:17.843 INFO com.vmo.automationexercise.helper.Log] - Enter first name: Bryce
+[19-11-2023 21:32:17.987 INFO com.vmo.automationexercise.helper.Log] - Enter last name: Altenwerth
+[19-11-2023 21:32:18.155 INFO com.vmo.automationexercise.helper.Log] - Enter company: Crooks and Sons
+[19-11-2023 21:32:18.378 INFO com.vmo.automationexercise.helper.Log] - Enter address1: Suite 944 9445 Beier Turnpike, Alonsoland, MD 91029-0291
+[19-11-2023 21:32:18.599 INFO com.vmo.automationexercise.helper.Log] - Enter address2: 6678
+[19-11-2023 21:32:18.789 INFO com.vmo.automationexercise.helper.Log] - Choose country: Canada
+[19-11-2023 21:32:19.019 INFO com.vmo.automationexercise.helper.Log] - Enter state: Minnesota
+[19-11-2023 21:32:19.270 INFO com.vmo.automationexercise.helper.Log] - Enter city: East Cameron
+[19-11-2023 21:32:19.517 INFO com.vmo.automationexercise.helper.Log] - Enter zipcode: 45026-4165
+[19-11-2023 21:32:19.758 INFO com.vmo.automationexercise.helper.Log] - Enter phone number: 1-296-437-6272
+[19-11-2023 21:32:20.843 INFO com.vmo.automationexercise.helper.Log] - Click on Create account button
+[19-11-2023 21:32:20.933 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT CREATED!' is visible
+[19-11-2023 21:32:23.927 INFO com.vmo.automationexercise.helper.Log] - Click Continue button to login
+[19-11-2023 21:32:24.012 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[19-11-2023 21:32:24.196 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[19-11-2023 21:32:24.335 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[19-11-2023 21:32:26.231 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[19-11-2023 21:32:26.240 INFO com.vmo.automationexercise.helper.Log] - Verify that cart page is displayed
+[19-11-2023 21:32:27.152 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[19-11-2023 21:32:29.038 INFO com.vmo.automationexercise.helper.Log] - Click 'Proceed To Checkout' button

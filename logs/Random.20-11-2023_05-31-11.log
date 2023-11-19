@@ -1,0 +1,13 @@
+[20-11-2023 05:31:16.299 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[20-11-2023 05:31:19.757 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[20-11-2023 05:31:19.821 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[20-11-2023 05:31:20.934 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[20-11-2023 05:31:21.212 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[20-11-2023 05:31:21.400 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[20-11-2023 05:31:23.042 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[20-11-2023 05:31:23.055 INFO com.vmo.automationexercise.helper.Log] - Verify that cart page is displayed
+[20-11-2023 05:31:23.259 INFO com.vmo.automationexercise.helper.Log] - Click 'Proceed To Checkout' button
+[20-11-2023 05:31:23.678 INFO com.vmo.automationexercise.helper.Log] - Click 'Login' button
+[20-11-2023 05:31:23.678 INFO com.vmo.automationexercise.helper.Log] - Enter name: Willis Krajcik
+[20-11-2023 05:31:23.678 INFO com.vmo.automationexercise.helper.Log] - Enter locator: //input[@name='name']
+[20-11-2023 05:31:23.678 INFO com.vmo.automationexercise.helper.Log] - Enter driver: ChromeDriver: chrome on windows (a9ec9853bcb5855b6b68173b2e86871c)

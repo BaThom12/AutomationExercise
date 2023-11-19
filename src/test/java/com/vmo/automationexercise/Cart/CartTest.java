@@ -38,12 +38,24 @@ public class CartTest extends BaseTest {
     public void TC01_AddProductsInCart(){
         homepage.verifyOnHomePage(driver);
         cart.addAndVerifyProductInCart();
-    }*/
+    }
     @Test
     public void TC02_VerifyProductQuantityInCart(){
         homepage.verifyOnHomePage(driver);
         cart.addAndVerifyProductWithQuantityIs4();
+    }*/
+    @Test
+    public void TC03_RemoveProductsFromCart(){
+        homepage.verifyOnHomePage(driver);
+        cart.addAndVerifyProductWithQuantityIs4();
+        cart.verifyProductIsRemovedFromCart();
     }
+    @Test
+    public void TC04_AddToCartFromRecommendedItems(){
+        homepage.verifyOnHomePage(driver);
+        cart.addToCartFromRecommendedItems();
+    }
+
     @AfterMethod
     public void tearDown() {
         driver.quit();

@@ -1,0 +1,42 @@
+[11-11-2023 22:53:08.785 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[11-11-2023 22:53:12.708 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[11-11-2023 22:53:12.751 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[11-11-2023 22:53:13.298 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[11-11-2023 22:53:13.527 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[11-11-2023 22:53:13.799 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[11-11-2023 22:53:15.911 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[11-11-2023 22:53:15.925 INFO com.vmo.automationexercise.helper.Log] - Verify that cart page is displayed
+[11-11-2023 22:53:16.176 INFO com.vmo.automationexercise.helper.Log] - Click Proceed To Checkout
+[11-11-2023 22:53:17.141 INFO com.vmo.automationexercise.helper.Log] - Click 'Register / Login' button
+[11-11-2023 22:53:17.147 INFO com.vmo.automationexercise.helper.Log] - Enter name: Cruz Keeling
+[11-11-2023 22:53:17.148 INFO com.vmo.automationexercise.helper.Log] - Enter locator: //input[@name='name']
+[11-11-2023 22:53:17.150 INFO com.vmo.automationexercise.helper.Log] - Enter driver: ChromeDriver: chrome on windows (4e8031ea80bf586eb4513a2ed98e329d)
+[11-11-2023 22:53:17.544 INFO com.vmo.automationexercise.helper.Log] - Enter name: Cruz Keeling
+[11-11-2023 22:53:17.814 INFO com.vmo.automationexercise.helper.Log] - Enter email: wayne.hansen@gmail.com
+[11-11-2023 22:53:18.680 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[11-11-2023 22:53:18.803 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[11-11-2023 22:53:19.025 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[11-11-2023 22:53:19.294 INFO com.vmo.automationexercise.helper.Log] - Enter password: nw4qakwgneof5
+[11-11-2023 22:53:19.501 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[11-11-2023 22:53:19.678 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[11-11-2023 22:53:19.872 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[11-11-2023 22:53:20.077 INFO com.vmo.automationexercise.helper.Log] - Tick on Sign up for our newsletter! checkbox
+[11-11-2023 22:53:20.216 INFO com.vmo.automationexercise.helper.Log] - Tick on Receive special offers from our partners! checkbox
+[11-11-2023 22:53:20.428 INFO com.vmo.automationexercise.helper.Log] - Enter first name: Bryon
+[11-11-2023 22:53:20.662 INFO com.vmo.automationexercise.helper.Log] - Enter last name: Ward
+[11-11-2023 22:53:20.950 INFO com.vmo.automationexercise.helper.Log] - Enter company: Pagac-Cruickshank
+[11-11-2023 22:53:21.255 INFO com.vmo.automationexercise.helper.Log] - Enter address1: Apt. 855 489 Donny Spring, Tamalamouth, AK 93117-1503
+[11-11-2023 22:53:21.499 INFO com.vmo.automationexercise.helper.Log] - Enter address2: 2530
+[11-11-2023 22:53:21.666 INFO com.vmo.automationexercise.helper.Log] - Choose country: Canada
+[11-11-2023 22:53:21.876 INFO com.vmo.automationexercise.helper.Log] - Enter state: Vermont
+[11-11-2023 22:53:22.115 INFO com.vmo.automationexercise.helper.Log] - Enter city: Hungberg
+[11-11-2023 22:53:22.345 INFO com.vmo.automationexercise.helper.Log] - Enter zipcode: 75087-3321
+[11-11-2023 22:53:22.595 INFO com.vmo.automationexercise.helper.Log] - Enter phone number: 1-489-918-4482
+[11-11-2023 22:53:24.143 INFO com.vmo.automationexercise.helper.Log] - Click on Create account button
+[11-11-2023 22:53:24.287 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT CREATED!' is visible
+[11-11-2023 22:53:26.979 INFO com.vmo.automationexercise.helper.Log] - Click Continue button to login
+[11-11-2023 22:53:27.056 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[11-11-2023 22:53:28.303 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[11-11-2023 22:53:29.586 INFO com.vmo.automationexercise.helper.Log] - Click 'Proceed To Checkout' button
+[11-11-2023 22:53:30.025 INFO com.vmo.automationexercise.helper.Log] - Verify Address Details Successfully
+[11-11-2023 22:53:30.122 INFO com.vmo.automationexercise.helper.Log] - Verify Review Your Order Successfully

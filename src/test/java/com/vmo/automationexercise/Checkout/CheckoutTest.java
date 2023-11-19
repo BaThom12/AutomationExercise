@@ -2,10 +2,7 @@ package com.vmo.automationexercise.Checkout;
 
 import com.vmo.automationexercise.common.BaseTest;
 import com.vmo.automationexercise.helper.Log;
-import com.vmo.automationexercise.pageobject.CartPageObject;
-import com.vmo.automationexercise.pageobject.CheckoutPageObject;
-import com.vmo.automationexercise.pageobject.HomePageObject;
-import com.vmo.automationexercise.pageobject.ProductPageObject;
+import com.vmo.automationexercise.pageobject.*;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
@@ -24,6 +21,8 @@ public class CheckoutTest extends BaseTest {
     ProductPageObject product;
     CartPageObject cart;
     CheckoutPageObject checkout;
+    AccountPageObject account;
+    AuthenPageObject authen;
 
     @Parameters({"browser", "runType"})
     @BeforeMethod
@@ -37,12 +36,67 @@ public class CheckoutTest extends BaseTest {
         product = new ProductPageObject(driver);
         cart = new CartPageObject(driver);
         checkout = new CheckoutPageObject(driver);
+        account = new AccountPageObject(driver);
+        authen = new AuthenPageObject(driver);
     }
-    @Test
+   /* @Test
     public void TC01_PlaceOrderRegisterWhileCheckout(){
         homepage.verifyOnHomePage(driver);
-
-
+        cart.addProductToCartFromHomepage();
+        checkout.loginBeforeCheckout();
+        account.verifyEnterNameAndEmail();
+        account.verifyCreateAccountSuccessful();
+        account.verifyLoginSuccessful();
+        checkout.checkoutProduct();
+        checkout.verifyAddressAndProductInCart();
+        checkout.enterInformationCheckout();
+    }
+    @Test
+    public void TC02_PlaceOrderRegisterBeforeCheckout(){
+        homepage.verifyOnHomePage(driver);
+        homepage.verifyOnSignUpPage();
+        account.verifyEnterNameAndEmail();
+        account.verifyCreateAccountSuccessful();
+        account.verifyLoginSuccessful();
+        cart.addProductToCartFromHomepage();
+        checkout.checkoutProduct();
+        checkout.verifyAddressAndProductInCart();
+        checkout.enterInformationCheckout();
+    }
+    @Test
+    public void TC03_PlaceOrderLoginBeforeCheckout(){
+        homepage.verifyOnHomePage(driver);
+        authen.verifyOnLoginPage();
+        authen.verifyLoginSuccessful();
+        cart.addProductToCartFromHomepage();
+        checkout.checkoutProduct();
+        checkout.verifyNameAndProductInCart();
+        checkout.enterInformationCheckout();
+    }
+    @Test
+    public void TC04_VerifyAddressDetailsInCheckoutPage(){
+        homepage.verifyOnHomePage(driver);
+        homepage.verifyOnSignUpPage();
+        account.verifyEnterNameAndEmail();
+        account.verifyCreateAccountSuccessful();
+        account.verifyLoginSuccessful();
+        cart.addProductToCartFromHomepage();
+        checkout.checkoutProduct();
+        checkout.verifyNameAndProductInCart();
+        checkout.enterInformationCheckout();
+    }*/
+    @Test
+    public void TC05_DownloadInvoiceAfterPurchaseOrder(){
+        homepage.verifyOnHomePage(driver);
+        cart.addProductToCartFromHomepage();
+        cart.checkout();
+        account.verifyEnterNameAndEmail();
+        account.verifyCreateAccountSuccessful();
+        account.verifyLoginSuccessful();
+        checkout.checkoutProduct();
+        checkout.verifyNameAndProductInCart();
+        checkout.enterInformationCheckout();
+        checkout.verifyDownloadInvoiceSuccessful();
     }
     @AfterMethod
     public void tearDown() {

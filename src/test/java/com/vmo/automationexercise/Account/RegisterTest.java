@@ -8,6 +8,7 @@ import com.vmo.automationexercise.pageobject.HomePageObject;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 
@@ -34,24 +35,25 @@ public class RegisterTest extends BaseTest {
     }
 
 
-   /* @Test(priority = 1)
-    public void TC01_RegisterUser() {
+    @Test(priority = 1)
+    public void TC01_RegisterUser() throws ElementClickInterceptedException {
         homepage.verifyOnHomePage(driver);
         homepage.verifyOnSignUpPage();
         account.verifyEnterNameAndEmail();
         account.verifyCreateAccountSuccessful();
         account.verifyLoginSuccessful();
     }
+    /*
     @Test(priority = 2)
     public void TC02_DeleteUser() {
         account.verifyDeleteAccountSuccessful();
-    }*/
+    }
     @Test(priority = 3)
     public void TC06_RegisterUserWithExistingEmail() {
         homepage.verifyOnHomePage(driver);
         homepage.verifyOnSignUpPage();
         account.verifyCreateAccountFail();
-    }
+    }*/
     @AfterClass
     public void tearDown() {
         driver.quit();

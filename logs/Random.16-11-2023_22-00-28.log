@@ -1,0 +1,39 @@
+[16-11-2023 22:00:34.528 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[16-11-2023 22:00:40.426 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[16-11-2023 22:00:40.488 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[16-11-2023 22:00:40.864 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[16-11-2023 22:00:43.299 INFO com.vmo.automationexercise.helper.Log] - Click on 'Products' button
+[16-11-2023 22:00:43.318 INFO com.vmo.automationexercise.helper.Log] - Verify user is navigated to ALL PRODUCTS page successfully
+[16-11-2023 22:00:43.570 INFO com.vmo.automationexercise.helper.Log] - The products list is visible
+[16-11-2023 22:00:43.867 INFO com.vmo.automationexercise.helper.Log] - Enter product name in search input: Men
+[16-11-2023 22:00:45.347 INFO com.vmo.automationexercise.helper.Log] - Click search button
+[16-11-2023 22:00:45.554 INFO com.vmo.automationexercise.helper.Log] - Verify 'SEARCHED PRODUCTS' is visible
+[16-11-2023 22:00:45.691 INFO com.vmo.automationexercise.helper.Log] - Verify all the products related to search are visible
+[16-11-2023 22:00:45.802 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[16-11-2023 22:00:47.567 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[16-11-2023 22:00:50.998 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[16-11-2023 22:00:51.001 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[16-11-2023 22:00:52.881 INFO com.vmo.automationexercise.helper.Log] - Click on 'Products' button
+[16-11-2023 22:00:52.898 INFO com.vmo.automationexercise.helper.Log] - Verify user is navigated to ALL PRODUCTS page successfully
+[16-11-2023 22:00:53.114 INFO com.vmo.automationexercise.helper.Log] - The products list is visible
+[16-11-2023 22:00:53.397 INFO com.vmo.automationexercise.helper.Log] - Enter product name in search input: Men
+[16-11-2023 22:00:54.676 INFO com.vmo.automationexercise.helper.Log] - Click search button
+[16-11-2023 22:00:54.855 INFO com.vmo.automationexercise.helper.Log] - Verify 'SEARCHED PRODUCTS' is visible
+[16-11-2023 22:00:54.969 INFO com.vmo.automationexercise.helper.Log] - Verify all the products related to search are visible
+[16-11-2023 22:00:59.128 INFO com.vmo.automationexercise.helper.Log] - Add those products to cart
+[16-11-2023 22:01:00.364 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button

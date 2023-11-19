@@ -48,7 +48,7 @@ public class ContactUsPageObject extends BasePage {
         Log.allure("Verify success message 'Success! Your details have been submitted successfully.' is visible");
         clickToElement(driver,ContactUsPageUI.HOME_BUTTON);
         Log.allure("Click 'Home' button");
-        waitForElementVisible(driver,HomePageUI.CATEGORY_LABEL);
+        waitForElementVisible(driver,replaceText(HomePageUI.LEFT_SIDEBAR_LABEL,"text","left-sidebar"));
         Assert.assertEquals(getTitle(driver),"Automation Exercise");
         Log.allure("Verify that landed to home page successfully");
     }

@@ -1,0 +1,12 @@
+[12-11-2023 21:34:12.777 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[12-11-2023 21:34:16.379 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[12-11-2023 21:34:16.413 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[12-11-2023 21:34:16.858 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[12-11-2023 21:34:17.609 INFO com.vmo.automationexercise.helper.Log] -  Click on 'Signup / Login' button
+[12-11-2023 21:34:17.809 INFO com.vmo.automationexercise.helper.Log] -  Verify 'Login to your account' is visible
+[12-11-2023 21:34:18.086 INFO com.vmo.automationexercise.helper.Log] - Enter email: tia.mclaughlin@gmail.com
+[12-11-2023 21:34:18.303 INFO com.vmo.automationexercise.helper.Log] - Enter password: uaq3hhz2sdke6
+[12-11-2023 21:34:20.559 INFO com.vmo.automationexercise.helper.Log] - Click 'login' button
+[12-11-2023 21:34:20.736 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[12-11-2023 21:34:20.952 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[12-11-2023 21:34:21.125 INFO com.vmo.automationexercise.helper.Log] - Add products to cart

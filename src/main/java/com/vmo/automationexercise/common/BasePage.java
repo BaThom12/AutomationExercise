@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
+import java.io.File;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
@@ -653,5 +654,49 @@ public class BasePage {
         driver.findElement(By.xpath(locator)).sendKeys(System.getProperty("user.dir") + pathFile);
         //explicit.until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator))).isDisplayed();
     }
+    protected void hideAdvertisement(WebDriver driver){
+     List<WebElement> all_iframes = driver.findElements(By.tagName("iframe"));
+        if (all_iframes.size() > 0) {
+            System.out.println("Ad Found\n");
+            jsExecutor = (JavascriptExecutor) driver;
 
+            jsExecutor.executeScript("""
+                    var elems = document.getElementsByTagName("iframe");
+                    for(var i = 0, max = elems.length; i < max; i++)
+                         {
+                             elems[i].hidden=true;
+                         }
+                                     """);
+            System.out.println("Total Ads: " + all_iframes.size());
+        }else {
+            System.out.println("No frames found");
+        }
+    }
+    public static boolean isFileDownloaded(String downloadPath, String fileName) {
+        File dir = new File(downloadPath);
+        File[] dir_contents = dir.listFiles();
+
+        if (dir_contents != null) {
+            for (File dir_content : dir_contents) {
+                if (dir_content.getName().equals(fileName))
+                    return true;
+            }
+        }
+
+        return false;
+    }
+    public ExpectedCondition<Boolean> filepresent() {
+        return new ExpectedCondition<Boolean>() {
+            @Override
+            public Boolean apply(WebDriver driver) {
+                File f = new File("C:\\Users\\ancoi\\Downloads\\invoice.txt");
+                return f.exists();
+            }
+
+            @Override
+            public String toString() {
+                return String.format("file to be present within the time specified");
+            }
+        };
+    }
 }

@@ -1,0 +1,10 @@
+[11-11-2023 22:05:26.911 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[11-11-2023 22:05:32.515 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[11-11-2023 22:05:32.570 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[11-11-2023 22:05:33.604 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[11-11-2023 22:05:33.803 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[11-11-2023 22:05:34.004 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[11-11-2023 22:05:36.475 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[11-11-2023 22:05:36.491 INFO com.vmo.automationexercise.helper.Log] - Verify that cart page is displayed
+[11-11-2023 22:05:36.726 INFO com.vmo.automationexercise.helper.Log] - Click Proceed To Checkout
+[11-11-2023 22:05:37.564 INFO com.vmo.automationexercise.helper.Log] - Click 'Register / Login' button

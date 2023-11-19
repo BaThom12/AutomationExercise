@@ -1,0 +1,37 @@
+[13-11-2023 22:20:08.136 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[13-11-2023 22:20:13.948 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[13-11-2023 22:20:14.007 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[13-11-2023 22:20:14.418 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[13-11-2023 22:20:18.318 INFO com.vmo.automationexercise.helper.Log] - Click on 'Products' button
+[13-11-2023 22:20:18.335 INFO com.vmo.automationexercise.helper.Log] - Verify user is navigated to ALL PRODUCTS page successfully
+[13-11-2023 22:20:18.514 INFO com.vmo.automationexercise.helper.Log] - The products list is visible
+[13-11-2023 22:20:18.792 INFO com.vmo.automationexercise.helper.Log] - Enter product name in search input: Men
+[13-11-2023 22:20:20.291 INFO com.vmo.automationexercise.helper.Log] - Click search button
+[13-11-2023 22:20:20.380 INFO com.vmo.automationexercise.helper.Log] - Verify 'SEARCHED PRODUCTS' is visible
+[13-11-2023 22:20:20.520 INFO com.vmo.automationexercise.helper.Log] - Verify all the products related to search are visible
+[13-11-2023 22:20:20.628 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[13-11-2023 22:20:22.440 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[13-11-2023 22:20:25.742 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[13-11-2023 22:20:25.742 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[13-11-2023 22:20:27.709 INFO com.vmo.automationexercise.helper.Log] - Click on 'Products' button
+[13-11-2023 22:20:27.725 INFO com.vmo.automationexercise.helper.Log] - Verify user is navigated to ALL PRODUCTS page successfully
+[13-11-2023 22:20:27.849 INFO com.vmo.automationexercise.helper.Log] - The products list is visible
+[13-11-2023 22:20:28.186 INFO com.vmo.automationexercise.helper.Log] - Enter product name in search input: Men
+[13-11-2023 22:20:30.671 INFO com.vmo.automationexercise.helper.Log] - Click search button
+[13-11-2023 22:20:30.856 INFO com.vmo.automationexercise.helper.Log] - Verify 'SEARCHED PRODUCTS' is visible
+[13-11-2023 22:20:30.971 INFO com.vmo.automationexercise.helper.Log] - Verify all the products related to search are visible

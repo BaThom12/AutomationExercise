@@ -16,7 +16,19 @@ import static com.vmo.automationexercise.pageobject.CommonPageObject.replaceText
 
 public class AccountPageObject extends BasePage {
     WebDriver driver;
-    Faker faker = new Faker();
+    static Faker faker = new Faker();
+
+    public static String firstname = faker.name().firstName();
+    public static String lastname = faker.name().lastName();
+    public static String fullName = firstname +" "+lastname;
+    public static String company = faker.company().name();
+    public static String address1 = faker.address().fullAddress();
+    public static String address2 = faker.address().buildingNumber();
+    public static String state = String.valueOf(faker.address().state());
+    public static String city = String.valueOf(faker.address().cityName());
+    public static String zipcode = String.valueOf(faker.address().zipCode());
+    public static String phone = faker.phoneNumber().cellPhone();
+    String email = faker.internet().emailAddress();
 
     public AccountPageObject(WebDriver driver) {
         this.driver = driver;
@@ -25,9 +37,10 @@ public class AccountPageObject extends BasePage {
 
 
 
-    public void enterNameEmail(WebDriver driver) {
-        String fullName =faker.name().fullName();
-        String email = faker.internet().emailAddress();
+    public void enterNameEmail(WebDriver driver) throws ElementClickInterceptedException{
+        Log.allure("Enter name: %s", fullName);
+        Log.allure("Enter locator: %s", replaceText(AuthenPageUI.COMMON_TEXTBOX, "text", "name"));
+        Log.allure("Enter driver: %s", driver.toString());
         sendKeyToElement(driver, replaceText(AuthenPageUI.COMMON_TEXTBOX, "text", "name") , fullName);
         Log.allure("Enter name: %s", fullName);
         sendKeyToElement(driver,replaceText(AuthenPageUI.EMAIL_TEXTBOX, "text", "signup-email") , email);
@@ -58,6 +71,8 @@ public class AccountPageObject extends BasePage {
         Select sltYear = new Select(driver.findElement(By.xpath(replaceText(AccountPageUI.COMMON_SELECT, "text", "years"))));
         sltYear.selectByVisibleText("1989");
         Log.allure("Choose year: 1989");
+        //hideAdvertisement(driver);
+        scrollToElement(driver,replaceText(AccountPageUI.COMMON_CHECKBOX, "text", "newsletter"));
         clickToElement(driver,replaceText(AccountPageUI.COMMON_CHECKBOX, "text", "newsletter"));
         Log.allure("Tick on Sign up for our newsletter! checkbox");
         clickToElement(driver,replaceText(AccountPageUI.COMMON_CHECKBOX, "text", "optin"));
@@ -65,16 +80,8 @@ public class AccountPageObject extends BasePage {
 
     }
 
-    private void enterAddressInformation(){
-        String firstname = faker.name().firstName();
-        String lastname = faker.name().lastName();
-        String company = faker.company().name();
-        String address1 = faker.address().fullAddress();
-        String address2 = faker.address().buildingNumber();
-        String state = String.valueOf(faker.address().state());
-        String city = String.valueOf(faker.address().cityName());
-        String zipcode = String.valueOf(faker.address().zipCode());
-        String phone = faker.phoneNumber().cellPhone();
+
+    private void enterAddressInformation() throws ElementClickInterceptedException{
         sendKeyToElement(driver,replaceText(AccountPageUI.COMMON_TEXTBOX, "text", "first_name"),firstname);
         Log.allure("Enter first name: %s",firstname);
         sendKeyToElement(driver,replaceText(AccountPageUI.COMMON_TEXTBOX, "text", "last_name"),lastname);
@@ -99,7 +106,7 @@ public class AccountPageObject extends BasePage {
 
     }
 
-    public void verifyCreateAccountSuccessful() {
+    public void verifyCreateAccountSuccessful() throws ElementClickInterceptedException{
         enterAccountInformationSuccessful();
         enterAddressInformation();
         clickToElement(driver,replaceText(AccountPageUI.COMMON_BUTTON, "text", "create-account"));
@@ -126,7 +133,6 @@ public class AccountPageObject extends BasePage {
     }
 
     public void verifyCreateAccountFail() throws ElementClickInterceptedException{
-        String fullName = faker.name().fullName();
         sendKeyToElement(driver, replaceText(AuthenPageUI.COMMON_TEXTBOX, "text", "name") , fullName);
         Log.allure("Enter name: %s", fullName);
         sendKeyToElement(driver,replaceText(AuthenPageUI.EMAIL_TEXTBOX, "text", "signup-email") , "tia.mclaughlin@gmail.com");

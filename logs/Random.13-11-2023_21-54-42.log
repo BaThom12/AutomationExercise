@@ -1,0 +1,33 @@
+[13-11-2023 21:54:46.404 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[13-11-2023 21:54:50.207 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[13-11-2023 21:54:50.239 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[13-11-2023 21:54:50.401 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[13-11-2023 21:54:50.482 INFO com.vmo.automationexercise.helper.Log] - Verify that categories are visible on left side bar
+[13-11-2023 21:54:50.645 INFO com.vmo.automationexercise.helper.Log] - Click on 'Women' category
+[13-11-2023 21:54:52.049 INFO com.vmo.automationexercise.helper.Log] - Click on 'Dress' subcategory
+[13-11-2023 21:54:52.065 INFO com.vmo.automationexercise.helper.Log] - Verify that category page is displayed
+[13-11-2023 21:54:52.287 INFO com.vmo.automationexercise.helper.Log] - Verify that confirm text 'WOMEN - TOPS PRODUCTS' is displayed
+[13-11-2023 21:54:55.232 INFO com.vmo.automationexercise.helper.Log] - Verify that user is navigated to that category page
+[13-11-2023 21:54:55.307 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[13-11-2023 21:54:56.874 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[13-11-2023 21:55:00.301 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[13-11-2023 21:55:00.302 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[13-11-2023 21:55:02.522 INFO com.vmo.automationexercise.helper.Log] - Verify that Brands are visible on left side bar
+[13-11-2023 21:55:03.820 INFO com.vmo.automationexercise.helper.Log] - Click on any brand name
+[13-11-2023 21:55:03.861 INFO com.vmo.automationexercise.helper.Log] - Verify that user is navigated to brand page
+[13-11-2023 21:55:04.017 INFO com.vmo.automationexercise.helper.Log] - Verify that brand products are displayed

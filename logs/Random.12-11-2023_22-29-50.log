@@ -1,0 +1,10 @@
+[12-11-2023 22:29:54.897 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[12-11-2023 22:30:00.048 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[12-11-2023 22:30:00.110 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[12-11-2023 22:30:00.483 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[12-11-2023 22:30:00.617 INFO com.vmo.automationexercise.helper.Log] - Verify that categories are visible on left side bar
+[12-11-2023 22:30:00.784 INFO com.vmo.automationexercise.helper.Log] - Click on 'Women' category
+[12-11-2023 22:30:02.214 INFO com.vmo.automationexercise.helper.Log] - Click on 'Dress' subcategory
+[12-11-2023 22:30:02.238 INFO com.vmo.automationexercise.helper.Log] - Verify that category page is displayed
+[12-11-2023 22:30:02.464 INFO com.vmo.automationexercise.helper.Log] - Verify that confirm text 'WOMEN - TOPS PRODUCTS' is displayed
+[12-11-2023 22:30:04.463 INFO com.vmo.automationexercise.helper.Log] - Verify that user is navigated to that category page

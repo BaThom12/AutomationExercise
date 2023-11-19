@@ -1,0 +1,46 @@
+[19-11-2023 21:48:15.303 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[19-11-2023 21:48:20.733 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[19-11-2023 21:48:20.791 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[19-11-2023 21:48:21.872 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[19-11-2023 21:48:23.226 INFO com.vmo.automationexercise.helper.Log] -  Click on 'Signup / Login' button
+[19-11-2023 21:48:23.400 INFO com.vmo.automationexercise.helper.Log] -  Verify 'Login to your account' is visible
+[19-11-2023 21:48:23.695 INFO com.vmo.automationexercise.helper.Log] - Enter email: tia.mclaughlin@gmail.com
+[19-11-2023 21:48:23.979 INFO com.vmo.automationexercise.helper.Log] - Enter password: uaq3hhz2sdke6
+[19-11-2023 21:48:27.312 INFO com.vmo.automationexercise.helper.Log] - Click 'login' button
+[19-11-2023 21:48:27.458 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[19-11-2023 21:48:27.671 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[19-11-2023 21:48:27.824 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[19-11-2023 21:49:28.482 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[19-11-2023 21:49:30.069 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[19-11-2023 21:49:34.930 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[19-11-2023 21:49:34.932 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[19-11-2023 21:49:35.006 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[19-11-2023 21:49:35.902 INFO com.vmo.automationexercise.helper.Log] - Click Signup button
+[19-11-2023 21:49:35.977 INFO com.vmo.automationexercise.helper.Log] - Verify 'New User Signup!' is visible
+[19-11-2023 21:49:35.979 INFO com.vmo.automationexercise.helper.Log] - Enter name: Sonny Lesch
+[19-11-2023 21:49:35.979 INFO com.vmo.automationexercise.helper.Log] - Enter locator: //input[@name='name']
+[19-11-2023 21:49:35.979 INFO com.vmo.automationexercise.helper.Log] - Enter driver: ChromeDriver: chrome on windows (a475a27810c6bffd7347f3c516d8364a)
+[19-11-2023 21:49:36.251 INFO com.vmo.automationexercise.helper.Log] - Enter name: Sonny Lesch
+[19-11-2023 21:49:36.445 INFO com.vmo.automationexercise.helper.Log] - Enter email: alesha.reinger@gmail.com
+[19-11-2023 21:49:38.317 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[19-11-2023 21:49:38.463 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[19-11-2023 21:49:38.585 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[19-11-2023 21:49:38.834 INFO com.vmo.automationexercise.helper.Log] - Enter password: 6ip2j08dn9phfb
+[19-11-2023 21:49:39.035 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[19-11-2023 21:49:39.149 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[19-11-2023 21:49:39.312 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989

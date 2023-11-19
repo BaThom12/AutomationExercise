@@ -39,11 +39,35 @@ public class HompageTest extends BaseTest {
         homepage.verifyOnHomePage(driver);
         homepage.verifySubscriptionInHomePageSuccessful();
     }
-    }*/
+    }
     @Test
     public void TC03_VerifySubscriptionInCartPage(){
         homepage.verifyOnHomePage(driver);
         homepage.verifySubscriptionInCartPageSuccessful();
+    }
+    @Test
+    public void TC04_ViewCategoryProducts(){
+        homepage.verifyOnHomePage(driver);
+        homepage.verifyCategoryDisplayOnHome();
+        homepage.verifyCategoryPageDisplay();
+    }
+    @Test
+    public void TC05_ViewCartBranchProducts(){
+        homepage.verifyBranchDisplay();
+        homepage.verifyNavigateToBranchPage();
+    }*/
+
+    @Test
+    public void TC06_VerifyScrollUpUsingArrowButtonAndScrollDownFunctionality(){
+        homepage.openHomePage(driver);
+        homepage.verifyOnHomePage(driver);
+        homepage.verifyScrollAndArrowWhenClickArrow();
+    }
+    @Test
+    public void TC07_VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionality(){
+        homepage.openHomePage(driver);
+        homepage.verifyOnHomePage(driver);
+        homepage.verifyScrollAndArrow();
     }
     @AfterMethod
     public void tearDown() {

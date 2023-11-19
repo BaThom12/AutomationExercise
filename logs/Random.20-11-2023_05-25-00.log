@@ -1,0 +1,5 @@
+[20-11-2023 05:25:05.920 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[20-11-2023 05:25:11.305 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[20-11-2023 05:25:11.351 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[20-11-2023 05:25:11.938 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[20-11-2023 05:25:12.143 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 

@@ -1,0 +1,31 @@
+[11-11-2023 10:52:22.014 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[11-11-2023 10:52:25.606 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[11-11-2023 10:52:25.646 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[11-11-2023 10:52:25.911 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[11-11-2023 10:52:26.707 INFO com.vmo.automationexercise.helper.Log] - Click Signup button
+[11-11-2023 10:52:26.940 INFO com.vmo.automationexercise.helper.Log] - Verify 'New User Signup!' is visible
+[11-11-2023 10:52:27.215 INFO com.vmo.automationexercise.helper.Log] - Enter name: Sha Funk
+[11-11-2023 10:52:27.413 INFO com.vmo.automationexercise.helper.Log] - Enter email: walter.adams@hotmail.com
+[11-11-2023 10:52:29.257 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[11-11-2023 10:52:29.440 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[11-11-2023 10:52:29.578 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[11-11-2023 10:52:29.882 INFO com.vmo.automationexercise.helper.Log] - Enter password: 81xwr4z1vd0yu
+[11-11-2023 10:52:30.102 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[11-11-2023 10:52:30.262 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[11-11-2023 10:52:30.452 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[11-11-2023 10:52:32.091 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]

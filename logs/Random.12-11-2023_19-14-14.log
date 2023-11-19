@@ -1,0 +1,49 @@
+[12-11-2023 19:14:18.295 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[12-11-2023 19:14:21.803 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[12-11-2023 19:14:21.844 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[12-11-2023 19:14:22.237 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[12-11-2023 19:14:22.397 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[12-11-2023 19:14:22.604 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[12-11-2023 19:14:25.252 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[12-11-2023 19:14:25.268 INFO com.vmo.automationexercise.helper.Log] - Verify that cart page is displayed
+[12-11-2023 19:14:25.459 INFO com.vmo.automationexercise.helper.Log] - Click Proceed To Checkout
+[12-11-2023 19:14:26.428 INFO com.vmo.automationexercise.helper.Log] - Click 'Register / Login' button
+[12-11-2023 19:14:26.429 INFO com.vmo.automationexercise.helper.Log] - Enter name: Arthur Borer
+[12-11-2023 19:14:26.431 INFO com.vmo.automationexercise.helper.Log] - Enter locator: //input[@name='name']
+[12-11-2023 19:14:26.431 INFO com.vmo.automationexercise.helper.Log] - Enter driver: ChromeDriver: chrome on windows (29e84b70afaa591062b5bd40b030aba3)
+[12-11-2023 19:14:26.789 INFO com.vmo.automationexercise.helper.Log] - Enter name: Arthur Borer
+[12-11-2023 19:14:27.010 INFO com.vmo.automationexercise.helper.Log] - Enter email: cheryl.ledner@yahoo.com
+[12-11-2023 19:14:27.990 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[12-11-2023 19:14:28.096 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[12-11-2023 19:14:28.361 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[12-11-2023 19:14:28.635 INFO com.vmo.automationexercise.helper.Log] - Enter password: c05b2gccybb6ov
+[12-11-2023 19:14:28.799 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[12-11-2023 19:14:28.974 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[12-11-2023 19:14:29.150 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[12-11-2023 19:14:29.363 INFO com.vmo.automationexercise.helper.Log] - Tick on Sign up for our newsletter! checkbox
+[12-11-2023 19:14:29.517 INFO com.vmo.automationexercise.helper.Log] - Tick on Receive special offers from our partners! checkbox
+[12-11-2023 19:14:29.768 INFO com.vmo.automationexercise.helper.Log] - Enter first name: Mistie
+[12-11-2023 19:14:30.042 INFO com.vmo.automationexercise.helper.Log] - Enter last name: Thiel
+[12-11-2023 19:14:30.287 INFO com.vmo.automationexercise.helper.Log] - Enter company: Bechtelar and Sons
+[12-11-2023 19:14:30.550 INFO com.vmo.automationexercise.helper.Log] - Enter address1: 0719 Schmeler Forges, Kirlinton, NH 58357
+[12-11-2023 19:14:30.769 INFO com.vmo.automationexercise.helper.Log] - Enter address2: 845
+[12-11-2023 19:14:30.953 INFO com.vmo.automationexercise.helper.Log] - Choose country: Canada
+[12-11-2023 19:14:31.219 INFO com.vmo.automationexercise.helper.Log] - Enter state: Florida
+[12-11-2023 19:14:31.500 INFO com.vmo.automationexercise.helper.Log] - Enter city: West Ninfaview
+[12-11-2023 19:14:31.739 INFO com.vmo.automationexercise.helper.Log] - Enter zipcode: 21949-7887
+[12-11-2023 19:14:31.981 INFO com.vmo.automationexercise.helper.Log] - Enter phone number: 400-526-7690
+[12-11-2023 19:14:33.402 INFO com.vmo.automationexercise.helper.Log] - Click on Create account button
+[12-11-2023 19:14:33.502 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT CREATED!' is visible
+[12-11-2023 19:14:39.438 INFO com.vmo.automationexercise.helper.Log] - Click Continue button to login
+[12-11-2023 19:14:39.503 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[12-11-2023 19:14:40.361 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[12-11-2023 19:14:41.634 INFO com.vmo.automationexercise.helper.Log] - Click 'Proceed To Checkout' button
+[12-11-2023 19:14:42.161 INFO com.vmo.automationexercise.helper.Log] - Verify Address Details Successfully
+[12-11-2023 19:14:42.306 INFO com.vmo.automationexercise.helper.Log] - Verify Review Your Order Successfully
+[12-11-2023 19:14:43.492 INFO com.vmo.automationexercise.helper.Log] - Enter description in comment text area and click 'Place Order'
+[12-11-2023 19:14:43.780 INFO com.vmo.automationexercise.helper.Log] - Enter payment details: Name on Card
+[12-11-2023 19:14:43.978 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Card Number
+[12-11-2023 19:14:44.213 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  CVC
+[12-11-2023 19:14:44.416 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Expiration month
+[12-11-2023 19:14:44.627 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Expiration year
+[12-11-2023 19:14:46.780 INFO com.vmo.automationexercise.helper.Log] - Click 'Pay and Confirm Order' button

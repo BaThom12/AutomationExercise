@@ -1,0 +1,57 @@
+[11-11-2023 22:49:52.595 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[11-11-2023 22:49:56.345 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[11-11-2023 22:49:56.403 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[11-11-2023 22:49:57.412 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[11-11-2023 22:49:57.628 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[11-11-2023 22:49:57.811 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[11-11-2023 22:50:00.070 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[11-11-2023 22:50:00.085 INFO com.vmo.automationexercise.helper.Log] - Verify that cart page is displayed
+[11-11-2023 22:50:00.311 INFO com.vmo.automationexercise.helper.Log] - Click Proceed To Checkout
+[11-11-2023 22:50:01.361 INFO com.vmo.automationexercise.helper.Log] - Click 'Register / Login' button
+[11-11-2023 22:50:01.364 INFO com.vmo.automationexercise.helper.Log] - Enter name: Rachel Klein
+[11-11-2023 22:50:01.366 INFO com.vmo.automationexercise.helper.Log] - Enter locator: //input[@name='name']
+[11-11-2023 22:50:01.366 INFO com.vmo.automationexercise.helper.Log] - Enter driver: ChromeDriver: chrome on windows (172de4c2b199d392571de3c593649fdb)
+[11-11-2023 22:50:01.802 INFO com.vmo.automationexercise.helper.Log] - Enter name: Rachel Klein
+[11-11-2023 22:50:02.082 INFO com.vmo.automationexercise.helper.Log] - Enter email: aurelio.simonis@hotmail.com
+[11-11-2023 22:50:03.015 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[11-11-2023 22:50:03.271 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[11-11-2023 22:50:03.467 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[11-11-2023 22:50:03.743 INFO com.vmo.automationexercise.helper.Log] - Enter password: 77krjasa
+[11-11-2023 22:50:03.980 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[11-11-2023 22:50:04.191 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[11-11-2023 22:50:04.403 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[11-11-2023 22:50:04.637 INFO com.vmo.automationexercise.helper.Log] - Tick on Sign up for our newsletter! checkbox
+[11-11-2023 22:50:04.831 INFO com.vmo.automationexercise.helper.Log] - Tick on Receive special offers from our partners! checkbox
+[11-11-2023 22:50:05.144 INFO com.vmo.automationexercise.helper.Log] - Enter first name: Rosann
+[11-11-2023 22:50:05.469 INFO com.vmo.automationexercise.helper.Log] - Enter last name: Daugherty
+[11-11-2023 22:50:05.830 INFO com.vmo.automationexercise.helper.Log] - Enter company: Gutmann, Casper and Hettinger
+[11-11-2023 22:50:06.243 INFO com.vmo.automationexercise.helper.Log] - Enter address1: Suite 100 559 Leona Mount, West Alonatown, MT 60217-6716
+[11-11-2023 22:50:06.543 INFO com.vmo.automationexercise.helper.Log] - Enter address2: 6439
+[11-11-2023 22:50:06.793 INFO com.vmo.automationexercise.helper.Log] - Choose country: Canada
+[11-11-2023 22:50:07.092 INFO com.vmo.automationexercise.helper.Log] - Enter state: Iowa
+[11-11-2023 22:50:07.415 INFO com.vmo.automationexercise.helper.Log] - Enter city: East Morton
+[11-11-2023 22:50:07.723 INFO com.vmo.automationexercise.helper.Log] - Enter zipcode: 81732
+[11-11-2023 22:50:08.058 INFO com.vmo.automationexercise.helper.Log] - Enter phone number: 500-232-5249
+[11-11-2023 22:50:09.928 INFO com.vmo.automationexercise.helper.Log] - Click on Create account button
+[11-11-2023 22:50:10.115 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT CREATED!' is visible
+[11-11-2023 22:50:12.818 INFO com.vmo.automationexercise.helper.Log] - Click Continue button to login
+[11-11-2023 22:50:13.039 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[11-11-2023 22:50:14.181 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[11-11-2023 22:50:15.494 INFO com.vmo.automationexercise.helper.Log] - Click 'Proceed To Checkout' button
+[11-11-2023 22:50:16.011 INFO com.vmo.automationexercise.helper.Log] - Verify Address Details Successfully
+[11-11-2023 22:50:16.261 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]

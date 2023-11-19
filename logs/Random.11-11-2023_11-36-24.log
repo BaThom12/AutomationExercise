@@ -1,0 +1,4 @@
+[11-11-2023 11:36:28.935 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[11-11-2023 11:36:32.291 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[11-11-2023 11:36:32.326 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[11-11-2023 11:36:32.699 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully

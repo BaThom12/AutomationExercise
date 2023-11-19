@@ -1,0 +1,12 @@
+[18-11-2023 16:26:58.814 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[18-11-2023 16:27:03.984 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[18-11-2023 16:27:04.038 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[18-11-2023 16:27:06.338 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[18-11-2023 16:27:10.343 INFO com.vmo.automationexercise.helper.Log] - Click on 'Products' button
+[18-11-2023 16:27:10.365 INFO com.vmo.automationexercise.helper.Log] - Verify user is navigated to ALL PRODUCTS page successfully
+[18-11-2023 16:27:10.553 INFO com.vmo.automationexercise.helper.Log] - The products list is visible
+[18-11-2023 16:27:10.801 INFO com.vmo.automationexercise.helper.Log] - Click on 'View Product' button
+[18-11-2023 16:27:28.376 INFO com.vmo.automationexercise.helper.Log] - Verify 'Write Your Review' is visible
+[18-11-2023 16:27:29.242 INFO com.vmo.automationexercise.helper.Log] - Enter name, email and review
+[18-11-2023 16:27:29.361 INFO com.vmo.automationexercise.helper.Log] - Click 'Submit' button
+[18-11-2023 16:27:29.449 INFO com.vmo.automationexercise.helper.Log] - Verify success message 'Thank you for your review.'
