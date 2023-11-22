@@ -1,0 +1,8 @@
+[21-11-2023 22:41:55.533 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[21-11-2023 22:44:38.801 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[21-11-2023 22:44:38.838 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[21-11-2023 22:45:57.231 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[21-11-2023 22:45:57.252 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[21-11-2023 22:45:57.602 INFO com.vmo.automationexercise.helper.Log] - Click on arrow left
+[21-11-2023 22:45:58.542 ERROR io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[21-11-2023 22:46:00.189 INFO com.vmo.automationexercise.helper.Log] - Open browser

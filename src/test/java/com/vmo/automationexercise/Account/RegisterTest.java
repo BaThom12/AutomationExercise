@@ -43,7 +43,7 @@ public class RegisterTest extends BaseTest {
         account.verifyCreateAccountSuccessful();
         account.verifyLoginSuccessful();
     }
-    /*
+
     @Test(priority = 2)
     public void TC02_DeleteUser() {
         account.verifyDeleteAccountSuccessful();
@@ -53,7 +53,7 @@ public class RegisterTest extends BaseTest {
         homepage.verifyOnHomePage(driver);
         homepage.verifyOnSignUpPage();
         account.verifyCreateAccountFail();
-    }*/
+    }
     @AfterClass
     public void tearDown() {
         driver.quit();

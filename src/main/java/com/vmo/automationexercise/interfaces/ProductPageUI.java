@@ -7,8 +7,8 @@ public class ProductPageUI {
     public static final String INFORMATION_FIRST_PRODUCT = "//a[@data-product-id='1']/../text";//h2,p
     public static final String INFORMATION_SECOND_PRODUCT = "//a[@data-product-id='2']/../text";//h2,p
     public static final String KEY_SEARCH = "Men";
-    public static final String HOVER_PRODUCT = "(//div[@class='product-overlay'])[index]";//1,2
-    public static final String ADD_TO_CART_PRODUCT = "//div[@class='overlay-content']/a[@data-product-id='index']";//1,2
+    public static final String HOVER_PRODUCT = "(//div[@class='col-sm-4']//div[@class='product-overlay'])[index]";//1,2
+    public static final String ADD_TO_CART_PRODUCT = "//div[@class='col-sm-4']//div[@class='product-overlay']//a[@data-product-id='index']";//1,2
     //detail product
     public static final String INFORMATION_PRODUCT_DETAIL = "//div[@class='product-information']/text";//h2,p
     public static final String OTHER_INFORMATION_PRODUCT_DETAIL = "(//div[@class='product-information']//p/b)[index]";

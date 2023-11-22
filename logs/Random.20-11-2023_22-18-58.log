@@ -1,0 +1,239 @@
+[20-11-2023 22:19:02.589 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[20-11-2023 22:19:06.435 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[20-11-2023 22:19:06.474 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[20-11-2023 22:19:06.607 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[20-11-2023 22:19:08.053 INFO com.vmo.automationexercise.helper.Log] - Click on 'Test Cases' button
+[20-11-2023 22:19:08.130 INFO com.vmo.automationexercise.helper.Log] - Verify user is navigated to test cases page successfully
+[20-11-2023 22:19:08.446 ERROR io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[20-11-2023 22:19:08.507 WARN org.asynchttpclient.netty.handler.WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[20-11-2023 22:19:10.188 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[20-11-2023 22:19:13.831 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[20-11-2023 22:19:13.831 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[20-11-2023 22:19:13.854 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[20-11-2023 22:19:14.644 INFO com.vmo.automationexercise.helper.Log] - Enter email address in input: arlen.veum@gmail.com
+[20-11-2023 22:19:14.859 INFO com.vmo.automationexercise.helper.Log] - Click arrow button
+[20-11-2023 22:19:14.969 INFO com.vmo.automationexercise.helper.Log] - Verify success message 'You have been successfully subscribed!' is visible
+[20-11-2023 22:19:15.235 ERROR io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[20-11-2023 22:19:16.996 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[20-11-2023 22:19:20.712 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[20-11-2023 22:19:20.712 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[20-11-2023 22:19:20.742 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[20-11-2023 22:19:22.212 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[20-11-2023 22:19:22.568 INFO com.vmo.automationexercise.helper.Log] - Enter email address in input: bobbie.smith@gmail.com
+[20-11-2023 22:19:22.672 INFO com.vmo.automationexercise.helper.Log] - Click arrow button
+[20-11-2023 22:19:22.737 INFO com.vmo.automationexercise.helper.Log] - Verify success message 'You have been successfully subscribed!' is visible
+[20-11-2023 22:19:22.920 ERROR io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[20-11-2023 22:19:24.426 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[20-11-2023 22:19:29.385 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[20-11-2023 22:19:29.385 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[20-11-2023 22:19:29.403 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[20-11-2023 22:19:29.517 INFO com.vmo.automationexercise.helper.Log] - Verify that categories are visible on left side bar
+[20-11-2023 22:19:29.692 INFO com.vmo.automationexercise.helper.Log] - Click on 'Women' category
+[20-11-2023 22:19:31.608 INFO com.vmo.automationexercise.helper.Log] - Click on 'Dress' subcategory
+[20-11-2023 22:19:31.619 INFO com.vmo.automationexercise.helper.Log] - Verify that category page is displayed
+[20-11-2023 22:19:31.790 INFO com.vmo.automationexercise.helper.Log] - Verify that confirm text 'WOMEN - TOPS PRODUCTS' is displayed
+[20-11-2023 22:19:34.189 INFO com.vmo.automationexercise.helper.Log] - Verify that user is navigated to that category page
+[20-11-2023 22:19:34.499 ERROR io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[20-11-2023 22:19:36.374 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[20-11-2023 22:19:41.656 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[20-11-2023 22:19:41.656 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[20-11-2023 22:19:43.900 INFO com.vmo.automationexercise.helper.Log] - Verify that Brands are visible on left side bar
+[20-11-2023 22:19:45.341 INFO com.vmo.automationexercise.helper.Log] - Click on any brand name
+[20-11-2023 22:19:45.356 INFO com.vmo.automationexercise.helper.Log] - Verify that user is navigated to brand page
+[20-11-2023 22:19:45.499 INFO com.vmo.automationexercise.helper.Log] - Verify that brand products are displayed
+[20-11-2023 22:19:46.406 INFO com.vmo.automationexercise.helper.Log] - Verify that user is navigated to that brand page
+[20-11-2023 22:19:46.581 INFO com.vmo.automationexercise.helper.Log] - Verify that kookie kids products are displayed
+[20-11-2023 22:19:46.931 ERROR io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[20-11-2023 22:19:48.875 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[20-11-2023 22:19:52.418 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[20-11-2023 22:19:52.420 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[20-11-2023 22:19:55.401 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[20-11-2023 22:19:55.417 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[20-11-2023 22:19:55.441 INFO com.vmo.automationexercise.helper.Log] - Scroll down page to bottom
+[20-11-2023 22:19:55.726 INFO com.vmo.automationexercise.helper.Log] - Verify 'SUBSCRIPTION' is visible
+[20-11-2023 22:19:55.857 INFO com.vmo.automationexercise.helper.Log] - Click on arrow at bottom right side to move upward
+[20-11-2023 22:19:56.078 INFO com.vmo.automationexercise.helper.Log] - Verify that page is scrolled up 
+[20-11-2023 22:19:56.330 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Full-Fledged practice website for Automation Engineers' text is visible on screen
+[20-11-2023 22:19:56.726 ERROR io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[20-11-2023 22:19:58.363 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[20-11-2023 22:20:02.428 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[20-11-2023 22:20:02.429 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[20-11-2023 22:20:10.815 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[20-11-2023 22:20:10.839 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[20-11-2023 22:20:10.864 INFO com.vmo.automationexercise.helper.Log] - Scroll down page to bottom
+[20-11-2023 22:20:11.046 INFO com.vmo.automationexercise.helper.Log] - Verify 'SUBSCRIPTION' is visible
+[20-11-2023 22:20:11.084 INFO com.vmo.automationexercise.helper.Log] - Scroll up page to top
+[20-11-2023 22:20:11.166 INFO com.vmo.automationexercise.helper.Log] - Verify that page is scrolled up 
+[20-11-2023 22:20:11.277 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Full-Fledged practice website for Automation Engineers' text is visible on screen
+[20-11-2023 22:20:11.649 ERROR io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[20-11-2023 22:20:14.851 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[20-11-2023 22:20:19.838 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[20-11-2023 22:20:19.839 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[20-11-2023 22:20:19.963 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[20-11-2023 22:20:20.110 ERROR io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[20-11-2023 22:20:23.579 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[20-11-2023 22:20:27.065 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[20-11-2023 22:20:27.066 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[20-11-2023 22:20:27.098 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[20-11-2023 22:20:28.413 INFO com.vmo.automationexercise.helper.Log] - Click Signup button
+[20-11-2023 22:20:28.481 INFO com.vmo.automationexercise.helper.Log] - Verify 'New User Signup!' is visible
+[20-11-2023 22:20:28.482 INFO com.vmo.automationexercise.helper.Log] - Enter name: Hilario Connelly
+[20-11-2023 22:20:28.482 INFO com.vmo.automationexercise.helper.Log] - Enter locator: //input[@name='name']
+[20-11-2023 22:20:28.482 INFO com.vmo.automationexercise.helper.Log] - Enter driver: FirefoxDriver: firefox on windows (e899d888-ca8a-4d02-9cc6-e3f5beb6fbd8)
+[20-11-2023 22:20:28.527 INFO com.vmo.automationexercise.helper.Log] - Enter name: Hilario Connelly
+[20-11-2023 22:20:28.567 INFO com.vmo.automationexercise.helper.Log] - Enter email: iris.johns@yahoo.com
+[20-11-2023 22:20:29.386 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[20-11-2023 22:20:29.464 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[20-11-2023 22:20:29.695 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[20-11-2023 22:20:29.767 INFO com.vmo.automationexercise.helper.Log] - Enter password: hjzugu6qeeihikm
+[20-11-2023 22:20:30.070 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[20-11-2023 22:20:30.342 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[20-11-2023 22:20:30.665 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[20-11-2023 22:20:30.953 INFO com.vmo.automationexercise.helper.Log] - Tick on Sign up for our newsletter! checkbox
+[20-11-2023 22:20:31.208 INFO com.vmo.automationexercise.helper.Log] - Tick on Receive special offers from our partners! checkbox
+[20-11-2023 22:20:31.282 INFO com.vmo.automationexercise.helper.Log] - Enter first name: Hilario
+[20-11-2023 22:20:31.329 INFO com.vmo.automationexercise.helper.Log] - Enter last name: Connelly
+[20-11-2023 22:20:31.374 INFO com.vmo.automationexercise.helper.Log] - Enter company: Kreiger, Cremin and Fahey
+[20-11-2023 22:20:31.435 INFO com.vmo.automationexercise.helper.Log] - Enter address1: Suite 562 918 Wisoky Pass, Lashawndabury, LA 53798
+[20-11-2023 22:20:31.469 INFO com.vmo.automationexercise.helper.Log] - Enter address2: 460
+[20-11-2023 22:20:31.700 INFO com.vmo.automationexercise.helper.Log] - Choose country: Canada
+[20-11-2023 22:20:31.771 INFO com.vmo.automationexercise.helper.Log] - Enter state: Wisconsin
+[20-11-2023 22:20:31.823 INFO com.vmo.automationexercise.helper.Log] - Enter city: South Gracie
+[20-11-2023 22:20:31.863 INFO com.vmo.automationexercise.helper.Log] - Enter zipcode: 72280-3935
+[20-11-2023 22:20:31.899 INFO com.vmo.automationexercise.helper.Log] - Enter phone number: 985-446-2157
+[20-11-2023 22:20:32.974 INFO com.vmo.automationexercise.helper.Log] - Click on Create account button
+[20-11-2023 22:20:33.041 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT CREATED!' is visible
+[20-11-2023 22:20:35.847 INFO com.vmo.automationexercise.helper.Log] - Click Continue button to login
+[20-11-2023 22:20:35.910 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[20-11-2023 22:20:36.019 ERROR io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[20-11-2023 22:20:39.254 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[20-11-2023 22:20:42.792 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[20-11-2023 22:20:42.793 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[20-11-2023 22:20:42.837 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[20-11-2023 22:20:43.639 INFO com.vmo.automationexercise.helper.Log] -  Click on 'Signup / Login' button
+[20-11-2023 22:20:43.719 INFO com.vmo.automationexercise.helper.Log] -  Verify 'Login to your account' is visible
+[20-11-2023 22:20:43.786 INFO com.vmo.automationexercise.helper.Log] - Enter email: robby.howell@yahoo.com
+[20-11-2023 22:20:43.828 INFO com.vmo.automationexercise.helper.Log] - Enter password: aiwhzw15q7
+[20-11-2023 22:20:49.297 INFO com.vmo.automationexercise.helper.Log] - Click 'login' button
+[20-11-2023 22:20:49.347 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[20-11-2023 22:20:49.505 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[20-11-2023 22:21:39.803 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[20-11-2023 22:21:42.404 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[20-11-2023 22:21:42.408 INFO com.vmo.automationexercise.helper.Log] - Verify that cart page is displayed
+[20-11-2023 22:21:43.445 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[20-11-2023 22:21:45.178 INFO com.vmo.automationexercise.helper.Log] - Click 'Proceed To Checkout' button
+[20-11-2023 22:21:45.179 INFO com.vmo.automationexercise.helper.Log] - Verify Name Details Successfully
+[20-11-2023 22:21:45.266 INFO com.vmo.automationexercise.helper.Log] - Verify Review Your Order Successfully
+[20-11-2023 22:21:46.095 INFO com.vmo.automationexercise.helper.Log] - Enter description in comment text area and click 'Place Order'
+[20-11-2023 22:21:46.205 INFO com.vmo.automationexercise.helper.Log] - Enter payment details: Name on Card
+[20-11-2023 22:21:46.281 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Card Number
+[20-11-2023 22:21:46.324 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  CVC
+[20-11-2023 22:21:46.364 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Expiration month
+[20-11-2023 22:21:46.396 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Expiration year
+[20-11-2023 22:21:48.457 INFO com.vmo.automationexercise.helper.Log] - Click 'Pay and Confirm Order' button
+[20-11-2023 22:21:48.457 INFO com.vmo.automationexercise.helper.Log] - Verify success message 'Your order has been placed successfully!'
+[20-11-2023 22:21:48.582 ERROR io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[20-11-2023 22:21:51.937 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[20-11-2023 22:21:55.358 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[20-11-2023 22:21:55.359 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[20-11-2023 22:21:55.390 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[20-11-2023 22:21:56.721 INFO com.vmo.automationexercise.helper.Log] - Click Signup button
+[20-11-2023 22:21:56.830 INFO com.vmo.automationexercise.helper.Log] - Verify 'New User Signup!' is visible
+[20-11-2023 22:21:56.830 INFO com.vmo.automationexercise.helper.Log] - Enter name: Hilario Connelly
+[20-11-2023 22:21:56.830 INFO com.vmo.automationexercise.helper.Log] - Enter locator: //input[@name='name']
+[20-11-2023 22:21:56.830 INFO com.vmo.automationexercise.helper.Log] - Enter driver: FirefoxDriver: firefox on windows (a7311c30-6fd0-4453-a4a2-b8e3cefce5f0)
+[20-11-2023 22:21:56.875 INFO com.vmo.automationexercise.helper.Log] - Enter name: Hilario Connelly
+[20-11-2023 22:21:56.913 INFO com.vmo.automationexercise.helper.Log] - Enter email: marjory.maggio@yahoo.com
+[20-11-2023 22:21:57.747 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[20-11-2023 22:21:57.842 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[20-11-2023 22:21:58.078 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[20-11-2023 22:21:58.124 INFO com.vmo.automationexercise.helper.Log] - Enter password: f5w0d4xqqrarnx2
+[20-11-2023 22:21:58.385 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[20-11-2023 22:21:58.626 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[20-11-2023 22:21:58.885 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[20-11-2023 22:21:59.160 INFO com.vmo.automationexercise.helper.Log] - Tick on Sign up for our newsletter! checkbox
+[20-11-2023 22:21:59.414 INFO com.vmo.automationexercise.helper.Log] - Tick on Receive special offers from our partners! checkbox
+[20-11-2023 22:21:59.486 INFO com.vmo.automationexercise.helper.Log] - Enter first name: Hilario
+[20-11-2023 22:21:59.523 INFO com.vmo.automationexercise.helper.Log] - Enter last name: Connelly
+[20-11-2023 22:21:59.561 INFO com.vmo.automationexercise.helper.Log] - Enter company: Kreiger, Cremin and Fahey
+[20-11-2023 22:21:59.615 INFO com.vmo.automationexercise.helper.Log] - Enter address1: Suite 562 918 Wisoky Pass, Lashawndabury, LA 53798
+[20-11-2023 22:21:59.649 INFO com.vmo.automationexercise.helper.Log] - Enter address2: 460
+[20-11-2023 22:21:59.881 INFO com.vmo.automationexercise.helper.Log] - Choose country: Canada
+[20-11-2023 22:21:59.941 INFO com.vmo.automationexercise.helper.Log] - Enter state: Wisconsin
+[20-11-2023 22:21:59.981 INFO com.vmo.automationexercise.helper.Log] - Enter city: South Gracie
+[20-11-2023 22:22:00.019 INFO com.vmo.automationexercise.helper.Log] - Enter zipcode: 72280-3935
+[20-11-2023 22:22:00.060 INFO com.vmo.automationexercise.helper.Log] - Enter phone number: 985-446-2157
+[20-11-2023 22:22:01.143 INFO com.vmo.automationexercise.helper.Log] - Click on Create account button
+[20-11-2023 22:22:01.216 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT CREATED!' is visible
+[20-11-2023 22:22:03.779 INFO com.vmo.automationexercise.helper.Log] - Click Continue button to login
+[20-11-2023 22:22:03.864 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[20-11-2023 22:22:04.049 ERROR io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[20-11-2023 22:22:07.200 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[20-11-2023 22:22:12.669 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[20-11-2023 22:22:12.673 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[20-11-2023 22:22:12.706 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[20-11-2023 22:22:12.866 INFO com.vmo.automationexercise.helper.Log] - Hover over first product 
+[20-11-2023 22:23:07.249 INFO com.vmo.automationexercise.helper.Log] - Add products to cart
+[20-11-2023 22:23:09.844 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[20-11-2023 22:23:09.847 INFO com.vmo.automationexercise.helper.Log] - Verify that cart page is displayed
+[20-11-2023 22:23:10.097 INFO com.vmo.automationexercise.helper.Log] - Click 'Proceed To Checkout' button
+[20-11-2023 22:23:11.219 INFO com.vmo.automationexercise.helper.Log] - Click 'Login' button
+[20-11-2023 22:23:11.220 INFO com.vmo.automationexercise.helper.Log] - Enter name: Hilario Connelly
+[20-11-2023 22:23:11.221 INFO com.vmo.automationexercise.helper.Log] - Enter locator: //input[@name='name']
+[20-11-2023 22:23:11.222 INFO com.vmo.automationexercise.helper.Log] - Enter driver: FirefoxDriver: firefox on windows (064d39b4-2a66-4179-890a-56d81ddab033)
+[20-11-2023 22:23:11.306 INFO com.vmo.automationexercise.helper.Log] - Enter name: Hilario Connelly
+[20-11-2023 22:23:11.367 INFO com.vmo.automationexercise.helper.Log] - Enter email: dante.cormier@hotmail.com
+[20-11-2023 22:23:12.386 INFO com.vmo.automationexercise.helper.Log] - Click on signup button
+[20-11-2023 22:23:12.510 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ENTER ACCOUNT INFORMATION' is visible
+[20-11-2023 22:23:12.745 INFO com.vmo.automationexercise.helper.Log] - Choose title
+[20-11-2023 22:23:12.817 INFO com.vmo.automationexercise.helper.Log] - Enter password: v4q6m44stq3
+[20-11-2023 22:23:13.067 INFO com.vmo.automationexercise.helper.Log] - Choose day: 5
+[20-11-2023 22:23:13.332 INFO com.vmo.automationexercise.helper.Log] - Choose month: May
+[20-11-2023 22:23:13.559 INFO com.vmo.automationexercise.helper.Log] - Choose year: 1989
+[20-11-2023 22:23:13.816 INFO com.vmo.automationexercise.helper.Log] - Tick on Sign up for our newsletter! checkbox
+[20-11-2023 22:23:14.070 INFO com.vmo.automationexercise.helper.Log] - Tick on Receive special offers from our partners! checkbox
+[20-11-2023 22:23:14.136 INFO com.vmo.automationexercise.helper.Log] - Enter first name: Hilario
+[20-11-2023 22:23:14.188 INFO com.vmo.automationexercise.helper.Log] - Enter last name: Connelly
+[20-11-2023 22:23:14.228 INFO com.vmo.automationexercise.helper.Log] - Enter company: Kreiger, Cremin and Fahey
+[20-11-2023 22:23:14.275 INFO com.vmo.automationexercise.helper.Log] - Enter address1: Suite 562 918 Wisoky Pass, Lashawndabury, LA 53798
+[20-11-2023 22:23:14.309 INFO com.vmo.automationexercise.helper.Log] - Enter address2: 460
+[20-11-2023 22:23:14.537 INFO com.vmo.automationexercise.helper.Log] - Choose country: Canada
+[20-11-2023 22:23:14.600 INFO com.vmo.automationexercise.helper.Log] - Enter state: Wisconsin
+[20-11-2023 22:23:14.651 INFO com.vmo.automationexercise.helper.Log] - Enter city: South Gracie
+[20-11-2023 22:23:14.691 INFO com.vmo.automationexercise.helper.Log] - Enter zipcode: 72280-3935
+[20-11-2023 22:23:14.733 INFO com.vmo.automationexercise.helper.Log] - Enter phone number: 985-446-2157
+[20-11-2023 22:23:15.995 INFO com.vmo.automationexercise.helper.Log] - Click on Create account button
+[20-11-2023 22:23:16.053 INFO com.vmo.automationexercise.helper.Log] - Verify that 'ACCOUNT CREATED!' is visible
+[20-11-2023 22:23:18.578 INFO com.vmo.automationexercise.helper.Log] - Click Continue button to login
+[20-11-2023 22:23:18.652 INFO com.vmo.automationexercise.helper.Log] - Verify that 'Logged in as username' is visible
+[20-11-2023 22:23:19.644 INFO com.vmo.automationexercise.helper.Log] - Click 'Cart' button
+[20-11-2023 22:23:21.315 INFO com.vmo.automationexercise.helper.Log] - Click 'Proceed To Checkout' button
+[20-11-2023 22:23:21.315 INFO com.vmo.automationexercise.helper.Log] - Verify Name Details Successfully
+[20-11-2023 22:23:21.425 INFO com.vmo.automationexercise.helper.Log] - Verify Review Your Order Successfully
+[20-11-2023 22:23:22.583 INFO com.vmo.automationexercise.helper.Log] - Enter description in comment text area and click 'Place Order'
+[20-11-2023 22:23:22.706 INFO com.vmo.automationexercise.helper.Log] - Enter payment details: Name on Card
+[20-11-2023 22:23:22.762 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Card Number
+[20-11-2023 22:23:22.802 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  CVC
+[20-11-2023 22:23:22.842 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Expiration month
+[20-11-2023 22:23:22.881 INFO com.vmo.automationexercise.helper.Log] - Enter payment details:  Expiration year
+[20-11-2023 22:23:24.962 INFO com.vmo.automationexercise.helper.Log] - Click 'Pay and Confirm Order' button
+[20-11-2023 22:23:24.962 INFO com.vmo.automationexercise.helper.Log] - Verify success message 'Your order has been placed successfully!'
+[20-11-2023 22:23:30.247 INFO com.vmo.automationexercise.helper.Log] - Click 'Download Invoice' button 
+[20-11-2023 22:23:30.257 INFO com.vmo.automationexercise.helper.Log] - verify invoice is downloaded successfully.
+[20-11-2023 22:23:33.690 INFO com.vmo.automationexercise.helper.Log] - Click 'Continue' button
+[20-11-2023 22:23:33.786 ERROR io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running

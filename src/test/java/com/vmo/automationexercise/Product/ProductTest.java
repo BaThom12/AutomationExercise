@@ -38,7 +38,7 @@ public class ProductTest extends BaseTest {
         authen = new AuthenPageObject(driver);
     }
 
-    /*@Test
+    @Test
     public void TC01_VerifyAllProductsAndProductDetailPage() throws ElementClickInterceptedException {
         homepage.verifyOnHomePage(driver);
         product.verifyOnProductList();
@@ -50,6 +50,7 @@ public class ProductTest extends BaseTest {
         product.verifyOnProductList();
         product.verifySearchResult(ProductPageUI.KEY_SEARCH);
     }
+    /*
     // chua giai quyet duoc
     @Test
     public void TC03_SearchProductAndVerifyCartAfterLogin() {

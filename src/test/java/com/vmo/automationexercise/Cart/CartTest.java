@@ -34,7 +34,7 @@ public class CartTest extends BaseTest {
         Log.info("Open Automation exercise shop");
         cart = new CartPageObject(driver);
     }
-   /* @Test
+   @Test
     public void TC01_AddProductsInCart(){
         homepage.verifyOnHomePage(driver);
         cart.addAndVerifyProductInCart();
@@ -43,7 +43,7 @@ public class CartTest extends BaseTest {
     public void TC02_VerifyProductQuantityInCart(){
         homepage.verifyOnHomePage(driver);
         cart.addAndVerifyProductWithQuantityIs4();
-    }*/
+    }
     @Test
     public void TC03_RemoveProductsFromCart(){
         homepage.verifyOnHomePage(driver);

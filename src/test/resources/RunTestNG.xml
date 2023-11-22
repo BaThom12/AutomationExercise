@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="TestNGListener">
+<suite name="TestNGListener" >
     <listeners>
         <listener class-name="com.vmo.automationexercise.helper.TestNGListener"/>
     </listeners>
-    <test name="AutomationExercise">
+    <test name="AutomationExercise1" parallel = "classes" thread-count = "2">
         <parameter name="browser" value="CHROME"></parameter>
         <parameter name="runType" value="grid1"></parameter>
         <classes>
-            <!--<class name="com.vmo.automationexercise.Account.RegisterTest"></class>
-            <class name="com.vmo.automationexercise.Account.AuthenTest"></class>
-            <class name="com.vmo.automationexercise.ContactUs.ContactUsTest"></class>
+            <!--  <class name="com.vmo.automationexercise.Account.RegisterTest"></class>
+              <class name="com.vmo.automationexercise.Account.AuthenTest"></class>
+              <class name="com.vmo.automationexercise.ContactUs.ContactUsTest"></class>
+              <class name="com.vmo.automationexercise.HomePage.HompageTest"></class>-->
             <class name="com.vmo.automationexercise.HomePage.HompageTest"></class>
-            <class name="com.vmo.automationexercise.Product.ProductTest"></class>
-            <class name="com.vmo.automationexercise.Cart.CartTest"></class>
-            <class name="com.vmo.automationexercise.Checkout.CheckoutTest"></class>-->
-            <class name="com.vmo.automationexercise.HomePage.HompageTest"></class>
+       </classes>
+      </test>
+     <test name="AutomationExercise2" parallel = "classes" thread-count = "2">
+         <parameter name="browser" value="CHROME"></parameter>
+         <parameter name="runType" value="grid"></parameter>
+         <classes>
+            <!-- <class name="com.vmo.automationexercise.Product.ProductTest"></class>
+             <class name="com.vmo.automationexercise.Cart.CartTest"></class>
+             <class name="com.vmo.automationexercise.Checkout.CheckoutTest"></class>-->
+         </classes>
+     </test>
 
-        </classes>
-    </test>
-
-</suite><!-- Test -->
+  </suite><!-- Test -->

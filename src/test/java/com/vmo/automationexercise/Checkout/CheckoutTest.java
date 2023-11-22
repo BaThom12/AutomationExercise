@@ -39,7 +39,7 @@ public class CheckoutTest extends BaseTest {
         account = new AccountPageObject(driver);
         authen = new AuthenPageObject(driver);
     }
-   /* @Test
+    @Test
     public void TC01_PlaceOrderRegisterWhileCheckout(){
         homepage.verifyOnHomePage(driver);
         cart.addProductToCartFromHomepage();
@@ -84,7 +84,7 @@ public class CheckoutTest extends BaseTest {
         checkout.checkoutProduct();
         checkout.verifyNameAndProductInCart();
         checkout.enterInformationCheckout();
-    }*/
+    }
     @Test
     public void TC05_DownloadInvoiceAfterPurchaseOrder(){
         homepage.verifyOnHomePage(driver);

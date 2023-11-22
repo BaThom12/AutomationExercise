@@ -74,7 +74,7 @@ public class HomePageObject extends BasePage {
     }
 
     public void verifyCategoryDisplayOnHome() {
-        Assert.assertEquals(getTextElement(driver, replaceText(HomePageUI.LEFT_SIDEBAR_LABEL,"text","left-sidebar")), "CATEGORY");
+        Assert.assertEquals(getTextElement(driver, replaceText(HomePageUI.LEFT_SIDEBAR_LABEL, "text", "left-sidebar")), "CATEGORY");
         Log.allure("Verify that categories are visible on left side bar");
     }
 
@@ -95,47 +95,52 @@ public class HomePageObject extends BasePage {
 
     public void verifyBranchDisplay() {
         clickToElement(driver, replaceText(HomePageUI.COMMON_BUTTON, "text", "/products"));
-        Assert.assertEquals(getTextElement(driver,replaceText(HomePageUI.LEFT_SIDEBAR_LABEL,"text","brands_products")),"BRANDS");
+        Assert.assertEquals(getTextElement(driver, replaceText(HomePageUI.LEFT_SIDEBAR_LABEL, "text", "brands_products")), "BRANDS");
         Log.allure("Verify that Brands are visible on left side bar");
 
     }
 
     public void verifyNavigateToBranchPage() {
-        clickToElement(driver,replaceText(HomePageUI.COMMON_BUTTON,"text","/brand_products/Madame"));
+        clickToElement(driver, "//div[@class='brands_products']" + replaceText(HomePageUI.COMMON_BUTTON, "text", "/brand_products/Madame"));
         Log.allure("Click on any brand name");
-        Assert.assertEquals(getTitle(driver),"Automation Exercise - Madame Products");
+        Assert.assertEquals(getTitle(driver), "Automation Exercise - Madame Products");
         Log.allure("Verify that user is navigated to brand page");
-        Assert.assertEquals(getTextElement(driver,HomePageUI.TOP_SUBCATEGORY),"BRAND - MADAME PRODUCTS");
+        Assert.assertEquals(getTextElement(driver, HomePageUI.TOP_SUBCATEGORY), "BRAND - MADAME PRODUCTS");
         Log.allure("Verify that brand products are displayed");
-        clickToElement(driver,replaceText(HomePageUI.COMMON_BUTTON,"text","/brand_products/Kookie Kids"));
-        Assert.assertEquals(getTitle(driver),"Automation Exercise - Kookie Kids Products");
+        clickToElement(driver, replaceText(HomePageUI.COMMON_BUTTON, "text", "/brand_products/Kookie Kids"));
+        Assert.assertEquals(getTitle(driver), "Automation Exercise - Kookie Kids Products");
         Log.allure("Verify that user is navigated to that brand page");
-        Assert.assertEquals(getTextElement(driver,HomePageUI.TOP_SUBCATEGORY),"BRAND - KOOKIE KIDS PRODUCTS");
+        Assert.assertEquals(getTextElement(driver, HomePageUI.TOP_SUBCATEGORY), "BRAND - KOOKIE KIDS PRODUCTS");
         Log.allure("Verify that kookie kids products are displayed");
     }
 
     public void verifyScrollAndArrowWhenClickArrow() {
         scrollToBottomPage(driver);
         Log.allure("Scroll down page to bottom");
-        Assert.assertTrue(isElementDisplay(driver,HomePageUI.SUBSCRIPTION_LABEL));
+        Assert.assertTrue(isElementDisplay(driver, HomePageUI.SUBSCRIPTION_LABEL));
         Log.allure("Verify 'SUBSCRIPTION' is visible");
-        clickToElement(driver,HomePageUI.SCROLL_UP);
+        clickToElement(driver, HomePageUI.SCROLL_UP);
         Log.allure("Click on arrow at bottom right side to move upward");
-        Assert.assertTrue(isElementDisplay(driver,HomePageUI.LOGO));
+        Assert.assertTrue(isElementDisplay(driver, HomePageUI.LOGO));
         Log.allure("Verify that page is scrolled up ");
-        Assert.assertEquals(getTextElement(driver,HomePageUI.SLIDER),"Full-Fledged practice website for Automation Engineers");
+        Assert.assertEquals(getTextElement(driver, HomePageUI.SLIDER), "Full-Fledged practice website for Automation Engineers");
         Log.allure("Verify that 'Full-Fledged practice website for Automation Engineers' text is visible on screen");
     }
+
     public void verifyScrollAndArrow() {
         scrollToBottomPage(driver);
         Log.allure("Scroll down page to bottom");
-        Assert.assertTrue(isElementDisplay(driver,HomePageUI.SUBSCRIPTION_LABEL));
+        Assert.assertTrue(isElementDisplay(driver, HomePageUI.SUBSCRIPTION_LABEL));
         Log.allure("Verify 'SUBSCRIPTION' is visible");
-        scrollToElement(driver,HomePageUI.LOGO);
+        scrollToElement(driver, HomePageUI.LOGO);
         Log.allure("Scroll up page to top");
-        Assert.assertTrue(isElementDisplay(driver,HomePageUI.LOGO));
+        Assert.assertTrue(isElementDisplay(driver, HomePageUI.LOGO));
         Log.allure("Verify that page is scrolled up ");
-        Assert.assertEquals(getTextElement(driver,HomePageUI.SLIDER),"Full-Fledged practice website for Automation Engineers");
+        Assert.assertEquals(getTextElement(driver, HomePageUI.SLIDER), "Full-Fledged practice website for Automation Engineers");
         Log.allure("Verify that 'Full-Fledged practice website for Automation Engineers' text is visible on screen");
     }
+
+
+
+
 }

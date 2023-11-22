@@ -2,6 +2,7 @@ package com.vmo.automationexercise.HomePage;
 
 import com.vmo.automationexercise.common.BaseTest;
 import com.vmo.automationexercise.helper.Log;
+import com.vmo.automationexercise.interfaces.HomePageUI;
 import com.vmo.automationexercise.pageobject.HomePageObject;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -29,7 +30,7 @@ public class HompageTest extends BaseTest {
         Log.info("Open Automation exercise shop");
 
     }
-   /* @Test
+   @Test
     public void TC01_VerifyTestCasesPage() {
         homepage.verifyOnHomePage(driver);
         homepage.verifyNavigatedToTestCasesPageSuccessfully();
@@ -39,7 +40,7 @@ public class HompageTest extends BaseTest {
         homepage.verifyOnHomePage(driver);
         homepage.verifySubscriptionInHomePageSuccessful();
     }
-    }
+
     @Test
     public void TC03_VerifySubscriptionInCartPage(){
         homepage.verifyOnHomePage(driver);
@@ -55,7 +56,7 @@ public class HompageTest extends BaseTest {
     public void TC05_ViewCartBranchProducts(){
         homepage.verifyBranchDisplay();
         homepage.verifyNavigateToBranchPage();
-    }*/
+    }
 
     @Test
     public void TC06_VerifyScrollUpUsingArrowButtonAndScrollDownFunctionality(){
@@ -69,6 +70,7 @@ public class HompageTest extends BaseTest {
         homepage.verifyOnHomePage(driver);
         homepage.verifyScrollAndArrow();
     }
+
     @AfterMethod
     public void tearDown() {
         driver.quit();

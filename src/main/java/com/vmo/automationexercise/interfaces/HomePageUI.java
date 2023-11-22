@@ -16,5 +16,4 @@ public class HomePageUI {
     public static final String LOGO = "//div[@class='logo pull-left']";
     public static final String SLIDER = "(//div[@id='slider-carousel']//div[@class='carousel-inner']//h2)[1]";
 
-
 }

@@ -22,7 +22,7 @@ public class TestNGListener implements ITestListener{
         System.out.println("--onTestSuccess");
         Object testClass = result.getInstance();
         WebDriver webDriver = ((BaseTest) testClass).getDriver();
-      //  saveScreenShot(webDriver);
+        saveScreenShot(webDriver);
        // ExcelUtils.setCellData("PASSED",ExcelUtils.rowNumber,ExcelUtils.columnNumber);
     }
 
@@ -32,7 +32,7 @@ public class TestNGListener implements ITestListener{
         System.out.println("--onTestFailure");
         Object testClass = result.getInstance();
         WebDriver webDriver = ((BaseTest) testClass).getDriver();
-      //  saveScreenShot(webDriver);
+        saveScreenShot(webDriver);
         // ExcelUtil.setCellData("FAILED",ExcelUtil.rowNumber,ExcelUtil.columnNumber);
     }
 

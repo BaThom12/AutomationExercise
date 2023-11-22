@@ -1,0 +1,9 @@
+[21-11-2023 22:49:07.737 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[21-11-2023 22:50:03.610 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[21-11-2023 22:50:03.652 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
+[21-11-2023 22:51:02.377 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[21-11-2023 22:51:02.404 INFO com.vmo.automationexercise.helper.Log] - Verify that home page is visible successfully
+[21-11-2023 22:51:02.780 INFO com.vmo.automationexercise.helper.Log] - Click on arrow left
+[21-11-2023 22:51:05.457 INFO com.vmo.automationexercise.helper.Log] - Open browser
+[21-11-2023 22:52:38.876 INFO com.vmo.automationexercise.helper.Log] - Open Homepage successful
+[21-11-2023 22:52:38.877 INFO com.vmo.automationexercise.helper.Log] - Open Automation exercise shop
